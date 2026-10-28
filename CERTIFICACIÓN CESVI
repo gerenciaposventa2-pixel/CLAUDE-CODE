@@ -1,0 +1,762 @@
+<title>Plan CESVI Colisión</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>html,body{margin:0}body{background:#ecedeb}@media (prefers-color-scheme:dark){body{background:#0d1013}}</style>
+<div id="root"></div>
+<script id="state" type="application/json">{"template":{"meta":{"titulo":"Plan CESVI · Taller de Colisión","programa":"Círculo Preferencial de Talleres (CPT) 2026","escala":[{"g":"Excelente","min":90,"d":"≥ 90%"},{"g":"Bueno","min":80,"d":"80 – 89%"},{"g":"Regular","min":70,"d":"70 – 79%"},{"g":"Crítico","min":0,"d":"< 70%"}],"parametros":["Estructura","Equipos","Herramientas","Materiales","Seguridad","Procesos","Personal"]},"modules":[{"id":"M1","n":"1","name":"Enderezado · Medición","area":"ENDEREZADO"},{"id":"M2","n":"2","name":"Enderezado · Estiraje","area":"ENDEREZADO"},{"id":"M3","n":"3","name":"Carrocería","area":"CARROCERÍA"},{"id":"M4","n":"4","name":"Pintura · Preparación","area":"PINTURA"},{"id":"M5","n":"5","name":"Pintura · Acabado","area":"PINTURA"},{"id":"M6","n":"6","name":"Electromecánica","area":"ELECTROMECÁNICA"},{"id":"M7","n":"7","name":"Control de Calidad (formativa)","area":"CALIDAD"}],"points":[{"id":"R001","m":"M1","s":"Estructura","req":"Puestos de medición con espacio, piso y ubicación adecuados para la bancada y el sistema de medición."},{"id":"R002","m":"M1","s":"Equipos","req":"Equipo de medición electrónico (o sistema mecánico de utillajes o calibres) en el 100% de los puestos de enderezado reportados, en condiciones de operación, que genere reporte de diagnóstico inicial y final."},{"id":"R003","m":"M1","s":"Equipos","req":"El equipo de medición de chasis mide longitud, altura y ancho."},{"id":"R004","m":"M1","s":"Personal","req":"Técnico de enderezado capacitado en medición y estiraje."},{"id":"R005","m":"M1","s":"Procesos","req":"Se usa la base de datos de cotas del sistema de medición electrónica."},{"id":"R006","m":"M1","s":"Procesos","req":"Se usan las cotas de altura para enderezar el chasis."},{"id":"R007","m":"M1","s":"Procesos","req":"Cuando no hay medición electrónica, la verificación estructural se hace con sistema mecánico o galgas."},{"id":"R008","m":"M1","s":"Procesos","req":"Se identifica correctamente el plano de referencia del vehículo antes de medir."},{"id":"R009","m":"M1","s":"Procesos","req":"Se analizan las deformaciones del chasis antes de definir las correcciones."},{"id":"R010","m":"M1","s":"Procesos","req":"Se mide después de cada estiraje."},{"id":"R011","m":"M2","s":"Estructura","req":"Bancada o puesto de estiraje con anclajes y espacio de trabajo adecuados."},{"id":"R012","m":"M2","s":"Equipos","req":"Mordazas de fijación de chasis independientes en condiciones de operación: mínimo 4 por puesto de enderezado reportado."},{"id":"R013","m":"M2","s":"Equipos","req":"Mordazas de tiro de diferente configuración: mínimo 3 por bancada."},{"id":"R014","m":"M2","s":"Equipos","req":"Cadenas de tiro: mínimo 3 por puesto de enderezado reportado."},{"id":"R015","m":"M2","s":"Equipos","req":"Accesorios o torres de tiro: mínimo 3 por puesto o bancada reportada."},{"id":"R016","m":"M2","s":"Seguridad","req":"Eslinga o guaya de seguridad por cada tiro disponible: mínimo 3 por puesto de enderezado reportado."},{"id":"R017","m":"M2","s":"Procesos","req":"El vehículo se ubica correctamente en la bancada antes de medir y estirar."},{"id":"R018","m":"M2","s":"Procesos","req":"Se dispone de un mecanismo de apoyo para montar el vehículo en la bancada."},{"id":"R019","m":"M2","s":"Procesos","req":"Se usa correctamente el mecanismo de elevación de la bancada."},{"id":"R020","m":"M3","s":"Estructura","req":"Puestos de carrocería con espacio, iluminación y tomas adecuados."},{"id":"R021","m":"M3","s":"Equipos","req":"Soldador MIG/MAG en condiciones de operación: 1 por cada 4 puestos de carrocería reportados."},{"id":"R022","m":"M3","s":"Equipos","req":"Soldador de punto por resistencia en condiciones de operación: 1 por cada 10 puestos de carrocería reportados."},{"id":"R023","m":"M3","s":"Herramientas","req":"Barras de refuerzo o fijación de la zona a trabajar, en condiciones de operación."},{"id":"R024","m":"M3","s":"Herramientas","req":"Kit de desmontaje de cristales, en condiciones de operación."},{"id":"R025","m":"M3","s":"Herramientas","req":"Lima de repasar exclusiva para aceros: 1 por operario."},{"id":"R026","m":"M3","s":"Materiales","req":"Electrodo de cobre para el soldador de punto, en condiciones de operación."},{"id":"R027","m":"M3","s":"Seguridad","req":"Elementos de protección y seguridad del área de carrocería."},{"id":"R028","m":"M3","s":"Personal","req":"Técnico de carrocería capacitado para la correcta ejecución de los trabajos asignados."},{"id":"R029","m":"M3","s":"Procesos","req":"Uso adecuado del mototool en corte, desbaste y preparación de piezas."},{"id":"R030","m":"M3","s":"Procesos","req":"Se usa lima para el repaso final."},{"id":"R031","m":"M3","s":"Procesos","req":"Discos de corte de 1/4 disponibles en inventario."},{"id":"R032","m":"M3","s":"Procesos","req":"Se usan los discos adecuados para pulir soldaduras."},{"id":"R033","m":"M3","s":"Procesos","req":"El técnico usa protección respiratoria para vapores al soldar."},{"id":"R034","m":"M3","s":"Procesos","req":"Se aplica soldadura por puntos en pestañas."},{"id":"R035","m":"M3","s":"Procesos","req":"La pieza se ajusta correctamente antes de soldar (alineación de líneas y ensamble)."},{"id":"R036","m":"M3","s":"Procesos","req":"El soldador por resistencia se calibra correctamente antes de usarlo."},{"id":"R037","m":"M3","s":"Procesos","req":"Se usan probetas para verificar la calibración del soldador de punto."},{"id":"R038","m":"M3","s":"Procesos","req":"Se respeta la distancia y el diámetro de los puntos de soldadura según fabricante."},{"id":"R039","m":"M3","s":"Procesos","req":"Carro porta herramientas en el puesto de trabajo."},{"id":"R040","m":"M3","s":"Procesos","req":"Pinzas de fijación adecuadas para posicionar y ensamblar piezas."},{"id":"R041","m":"M4","s":"Estructura","req":"Número de puestos de preparación ajustado a los tiempos medios de reparación, con dimensiones mínimas de 6 × 3,5 m."},{"id":"R042","m":"M4","s":"Equipos","req":"Lavadora de pistolas."},{"id":"R043","m":"M4","s":"Equipos","req":"Plenum de techo con cobertura sobre el 50% de los puestos de preparación reportados."},{"id":"R044","m":"M4","s":"Equipos","req":"Piso enrejillado con cobertura sobre el 50% de los puestos de preparación reportados."},{"id":"R045","m":"M4","s":"Equipos","req":"Impulsión o extracción de aire con cobertura sobre el 50% de los puestos de preparación reportados."},{"id":"R046","m":"M4","s":"Equipos","req":"Filtros de plenum en buen estado (cobertura sobre el 50% de los puestos)."},{"id":"R047","m":"M4","s":"Equipos","req":"Filtros de piso en buen estado (cobertura sobre el 50% de los puestos)."},{"id":"R048","m":"M4","s":"Equipos","req":"Prefiltros de la unidad en buen estado (cobertura sobre el 50% de los puestos)."},{"id":"R049","m":"M4","s":"Herramientas","req":"Herramientas del área de preparación completas y en condiciones de operación."},{"id":"R050","m":"M4","s":"Materiales","req":"Guía de lijado para el control de calidad del fondo."},{"id":"R051","m":"M4","s":"Seguridad","req":"Elementos de protección y seguridad del área de preparación."},{"id":"R052","m":"M4","s":"Personal","req":"Técnico de preparación capacitado para la correcta ejecución de los trabajos asignados."},{"id":"R053","m":"M4","s":"Procesos","req":"Lijado con rotorbitales con aspiración para controlar la polución del taller."},{"id":"R054","m":"M4","s":"Procesos","req":"Las pistolas se regulan correctamente para evitar escurridos y falta de uniformidad."},{"id":"R055","m":"M4","s":"Procesos","req":"El técnico usa guantes de látex al manipular la superficie reparada."},{"id":"R056","m":"M4","s":"Procesos","req":"Se regula el flujo de material de la pistola."},{"id":"R057","m":"M4","s":"Procesos","req":"Se usa el equipo de lavado de pistolas y se reutilizan los insumos de limpieza."},{"id":"R058","m":"M4","s":"Procesos","req":"Las superficies se limpian antes de cada aplicación."},{"id":"R059","m":"M4","s":"Procesos","req":"El desengrasante se selecciona según el sustrato (polímero o metal)."},{"id":"R060","m":"M5","s":"Estructura","req":"Cabina y área de acabado con estructura conforme (dimensiones, iluminación y aislamiento)."},{"id":"R061","m":"M5","s":"Equipos","req":"Cabina con piso enrejillado con cobertura mínima del 80%."},{"id":"R062","m":"M5","s":"Equipos","req":"Cabina con quemador de llama directa para reducir los tiempos de calentamiento y enfriamiento en el secado."},{"id":"R063","m":"M5","s":"Herramientas","req":"Herramientas del área de acabado completas y en condiciones de operación."},{"id":"R064","m":"M5","s":"Materiales","req":"Materiales del área de acabado disponibles y vigentes."},{"id":"R065","m":"M5","s":"Seguridad","req":"Elementos de protección y seguridad del área de acabado."},{"id":"R066","m":"M5","s":"Personal","req":"Técnico de acabado capacitado para la correcta ejecución de los trabajos asignados."},{"id":"R067","m":"M5","s":"Procesos","req":"El técnico usa guantes de látex durante el acabado."},{"id":"R068","m":"M5","s":"Procesos","req":"Se iguala el color con las piezas adyacentes."},{"id":"R069","m":"M5","s":"Procesos","req":"Se selecciona el pico de fluido adecuado para la pistola."},{"id":"R070","m":"M5","s":"Procesos","req":"La pistola de aplicación se regula para una distribución uniforme del material."},{"id":"R071","m":"M5","s":"Procesos","req":"El técnico usa protección respiratoria para vapores."},{"id":"R072","m":"M5","s":"Procesos","req":"El técnico usa overol antiestático en cabina."},{"id":"R073","m":"M5","s":"Procesos","req":"Los parámetros de aplicación se configuran según la ficha técnica."},{"id":"R074","m":"M6","s":"Estructura","req":"Puestos de electromecánica con estructura conforme."},{"id":"R075","m":"M6","s":"Equipos","req":"Equipos de electromecánica en condiciones de operación."},{"id":"R076","m":"M6","s":"Herramientas","req":"Herramientas de electromecánica completas."},{"id":"R077","m":"M6","s":"Seguridad","req":"Elementos de protección y seguridad del área."},{"id":"R078","m":"M6","s":"Personal","req":"Técnicos de electromecánica capacitados."},{"id":"R079","m":"M7","s":"Carrocería · peso 8%","req":"Corte y desgrafado."},{"id":"R080","m":"M7","s":"Carrocería · peso 8%","req":"Soldadura de punto por resistencia."},{"id":"R081","m":"M7","s":"Carrocería · peso 8%","req":"Soldadura en zonas de corte (MIG)."},{"id":"R082","m":"M7","s":"Carrocería · peso 8%","req":"Reparación de plásticos."},{"id":"R083","m":"M7","s":"Carrocería · peso 8%","req":"Reparación con martillo de inercia."},{"id":"R084","m":"M7","s":"Carrocería · peso 8%","req":"Reparación con herramienta manual."},{"id":"R085","m":"M7","s":"Enderezado · peso 5%","req":"Calidad del proceso de enderezado."},{"id":"R086","m":"M7","s":"Pintura · peso 20%","req":"Pieza terminada sin brillar: barniz aplicado de forma uniforme (solape mínimo del 50%, presión y abanico según ficha técnica, revisión con luz rasante)."},{"id":"R087","m":"M7","s":"Pintura · peso 20%","req":"Pieza terminada sin brillar: superficie y cabina libres de contaminación (antisiliconas, desengrase previo, mantenimiento de líneas de aire y compresores)."},{"id":"R088","m":"M7","s":"Pintura · peso 20%","req":"Aplicación de masilla."},{"id":"R089","m":"M7","s":"Pintura · peso 20%","req":"Aplicación de imprimante."},{"id":"R090","m":"M7","s":"Pintura · peso 20%","req":"Lijado de masilla."},{"id":"R091","m":"M7","s":"Pintura · peso 20%","req":"Preparación y aplicación de aparejo."},{"id":"R092","m":"M7","s":"Pintura · peso 20%","req":"Pieza lista para entrar a cabina."},{"id":"R093","m":"M7","s":"Entrega · peso 67%","req":"Defectos de aplicación del acabado."},{"id":"R094","m":"M7","s":"Entrega · peso 67%","req":"Igualación de color y visibilidad de la reparación."},{"id":"R095","m":"M7","s":"Entrega · peso 67%","req":"Superficie e inspección bajo iluminación."},{"id":"R096","m":"M7","s":"Entrega · peso 67%","req":"Ajuste, funcionalidad y hermeticidad."}]},"evaluaciones":[{"id":"OFICIAL-V2","nombre":"Visita de Seguimiento 2 · CESVI","sitio":"Motor K S.A.S. · Pasto · ID CESVI 0606","evaluador":"Nicolas Sandoval Moreno (CESVI) · Renzon Meneses (Jefe de Taller)","fecha":"2026-10-27","bloqueada":true,"oficial":{"pct":84.9,"global":{"pct":84,"evaluados":591,"cumplidos":502,"parcial":11,"hallazgos":78},"areas":[{"k":"CARROCERÍA","pct":80.6},{"k":"ENDEREZADO","pct":68.3},{"k":"PINTURA","pct":88.3},{"k":"ELECTROMECÁNICA","pct":96.8},{"k":"CALIDAD","pct":81.4,"nota":"Evaluación formativa"}],"mapa":[{"k":"Carrocería","v":[97,58,90,88,100,79,80]},{"k":"Enderezado","v":[97,55,null,null,83,57,null]},{"k":"Pintura","v":[82,71,100,98,100,87,80]},{"k":"Electromecánica","v":[97,100,100,null,100,null,91]}],"subareas":[{"k":"Enderezado · Medición · Equipos","v":40},{"k":"Pintura · Prep · Equipos","v":46},{"k":"Enderezado · Medición · Procesos","v":49},{"k":"Carrocería · Equipos","v":58},{"k":"Enderezado · Estiraje · Procesos","v":66},{"k":"Enderezado · Estiraje · Equipos","v":71},{"k":"Carrocería · Procesos","v":79},{"k":"Pintura · Acab · Personal","v":80},{"k":"Pintura · Prep · Personal","v":80},{"k":"Carrocería · Personal","v":80},{"k":"Pintura · Acab · Procesos","v":81},{"k":"Pintura · Prep · Estructura","v":82},{"k":"Pintura · Acab · Estructura","v":82},{"k":"Enderezado · Estiraje · Seguridad","v":83}]},"resp":{"R001":{"r":"C","obs":"Subárea Med · Estructura: 97%."},"R002":{"r":"NC","obs":"Otros sistemas mecánicos se consideran solo de apoyo para el área. Subárea Med · Equipos: 40%."},"R003":{"r":"NC","obs":"Es fundamental para restituir correctamente las dimensiones estructurales del vehículo."},"R004":{"r":"NC","obs":"CESVI recomienda mejorar la capacitación del técnico de enderezado para garantizar la correcta ejecución de los trabajos."},"R005":{"r":"NC","obs":"Mejora la precisión y reduce notablemente el tiempo de enderezado. Subárea Med · Procesos: 49%."},"R006":{"r":"NC","obs":"No usarlas genera reprocesos, más tiempo de reparación y pérdida de precisión estructural."},"R007":{"r":"NC","obs":"Brinda precisión y confiabilidad, y reduce reprocesos y desviaciones."},"R008":{"r":"NC","obs":"Identificarlo mal genera errores de medición y desviaciones estructurales que suben tiempos y costos."},"R009":{"r":"NC","obs":"Un análisis deficiente lleva a correcciones incompletas y reprocesos."},"R010":{"r":"NC","obs":"No medir aumenta el riesgo de desviaciones dimensionales y los tiempos de entrega."},"R011":{"r":"C","obs":"Subárea Est · Estructura: 97%."},"R012":{"r":"NC","obs":"Subárea Est · Equipos: 71%."},"R013":{"r":"NC","obs":""},"R014":{"r":"NC","obs":""},"R015":{"r":"NC","obs":""},"R016":{"r":"NC","obs":"Subárea Est · Seguridad: 83%."},"R017":{"r":"NC","obs":"Evita reprocesos, ahorra tiempo y mejora la calidad del enderezado. Subárea Est · Procesos: 66%."},"R018":{"r":"NC","obs":"Sin él aumenta el tiempo, el riesgo de daño y los costos operativos."},"R019":{"r":"NC","obs":"Asegura una ubicación precisa del vehículo y evita sobrecostos."},"R020":{"r":"C","obs":"Parámetro Estructura: 97%."},"R021":{"r":"NC","obs":"Parámetro Equipos: 58%."},"R022":{"r":"NC","obs":"Su ausencia limita la eficiencia del proceso y la calidad de las uniones."},"R023":{"r":"NC","obs":"Parámetro Herramientas: 90%."},"R024":{"r":"NC","obs":""},"R025":{"r":"NC","obs":""},"R026":{"r":"NC","obs":"Parámetro Materiales: 88%."},"R027":{"r":"C","obs":"Parámetro Seguridad: 100%."},"R028":{"r":"NC","obs":"Parámetro Personal: 80%."},"R029":{"r":"NC","obs":"Un uso incorrecto genera retrabajos y alarga la entrega. Parámetro Procesos: 79%."},"R030":{"r":"NC","obs":"Sin lima se compromete el acabado y se requieren correcciones con otras herramientas."},"R031":{"r":"NC","obs":"Evita paradas y sobrecostos por compras urgentes."},"R032":{"r":"NC","obs":"Prepara bien la superficie y evita defectos en las etapas siguientes."},"R033":{"r":"NC","obs":""},"R034":{"r":"NC","obs":"Conserva la resistencia estructural y las características originales de la pieza."},"R035":{"r":"NC","obs":""},"R036":{"r":"NC","obs":""},"R037":{"r":"NC","obs":"Valida la calidad de la unión antes de intervenir la pieza definitiva."},"R038":{"r":"NC","obs":""},"R039":{"r":"NC","obs":"Su falta genera tiempos improductivos y desorden en el puesto."},"R040":{"r":"NC","obs":""},"R041":{"r":"NC","obs":"Subárea Prep · Estructura: 82%."},"R042":{"r":"NC","obs":"Disminuye consumos y agiliza la limpieza. Subárea Prep · Equipos: 46%."},"R043":{"r":"NC","obs":""},"R044":{"r":"NC","obs":""},"R045":{"r":"NC","obs":""},"R046":{"r":"NC","obs":"Revisar estado o instalar."},"R047":{"r":"NC","obs":"Revisar estado o instalar."},"R048":{"r":"NC","obs":"Revisar estado o instalar."},"R049":{"r":"C","obs":"Subárea Prep · H/Tas: 100%."},"R050":{"r":"NC","obs":"Subárea Prep · Materiales: 96%."},"R051":{"r":"C","obs":"Subárea Prep · Seguridad: 100%."},"R052":{"r":"NC","obs":"Subárea Prep · Personal: 80%."},"R053":{"r":"NC","obs":"Reduce limpieza y mejora la eficiencia. Subárea Prep · Procesos: 93%."},"R054":{"r":"NC","obs":""},"R055":{"r":"NC","obs":"Evita transferir grasa y contaminantes que generan defectos en la pintura."},"R056":{"r":"NC","obs":"Reduce defectos y optimiza el consumo de producto."},"R057":{"r":"NC","obs":""},"R058":{"r":"NC","obs":"Garantiza la adherencia y reduce retoques y reprocesos."},"R059":{"r":"NC","obs":"Polímeros y metales reaccionan distinto; el producto correcto previene defectos."},"R060":{"r":"P","obs":"Subárea Acab · Estructura: 82%. El informe no trae recomendación puntual; validar con el consultor."},"R061":{"r":"NC","obs":"Subárea Acab · Equipos: 95%."},"R062":{"r":"NC","obs":""},"R063":{"r":"C","obs":"Subárea Acab · H/Tas: 100%."},"R064":{"r":"C","obs":"Subárea Acab · Materiales: 100%."},"R065":{"r":"C","obs":"Subárea Acab · Seguridad: 100%."},"R066":{"r":"NC","obs":"Subárea Acab · Personal: 80%."},"R067":{"r":"NC","obs":"Subárea Acab · Procesos: 81%."},"R068":{"r":"NC","obs":"Integra visualmente la reparación y reduce reprocesos."},"R069":{"r":"NC","obs":"Asegura la atomización correcta y optimiza el consumo."},"R070":{"r":"NC","obs":""},"R071":{"r":"NC","obs":""},"R072":{"r":"NC","obs":"Reduce la atracción de partículas sobre la superficie pintada."},"R073":{"r":"NC","obs":""},"R074":{"r":"C","obs":"Parámetro Estructura: 97%."},"R075":{"r":"C","obs":"Parámetro Equipos: 100%."},"R076":{"r":"C","obs":"Parámetro H/Tas: 100%."},"R077":{"r":"C","obs":"Parámetro Seguridad: 100%."},"R078":{"r":"C","obs":"Parámetro Personal: 91%. Sin recomendaciones en el informe."},"R079":{"r":"NA","obs":"No evaluado en la muestra de la V-2."},"R080":{"r":"NA","obs":"No evaluado en la muestra de la V-2."},"R081":{"r":"NA","obs":"No evaluado en la muestra de la V-2."},"R082":{"r":"NA","obs":"No evaluado en la muestra de la V-2."},"R083":{"r":"NA","obs":"No evaluado en la muestra de la V-2."},"R084":{"r":"NA","obs":"No evaluado en la muestra de la V-2."},"R085":{"r":"NA","obs":"No evaluado en la muestra de la V-2."},"R086":{"r":"NC","obs":"Placa PDZ359: aplicación dispareja del barniz, con defectos de acabado y correcciones que afectan la eficiencia. Validar calibración de pistola y técnica de solape."},"R087":{"r":"NC","obs":"Alta contaminación del producto que afecta la calidad superficial y genera retrabajos. Revisar aceite en líneas de aire y uso de siliconas en el taller."},"R088":{"r":"NA","obs":"No evaluado en la muestra de la V-2."},"R089":{"r":"NA","obs":"No evaluado en la muestra de la V-2."},"R090":{"r":"NA","obs":"No evaluado en la muestra de la V-2."},"R091":{"r":"NA","obs":"No evaluado en la muestra de la V-2."},"R092":{"r":"NA","obs":"No evaluado en la muestra de la V-2."},"R093":{"r":"NA","obs":"No evaluado en la muestra de la V-2."},"R094":{"r":"NA","obs":"No evaluado en la muestra de la V-2."},"R095":{"r":"NA","obs":"No evaluado en la muestra de la V-2."},"R096":{"r":"NA","obs":"No evaluado en la muestra de la V-2."}},"seg":{}}],"papelera":[]}</script>
+<script>((function app(){
+  "use strict";
+  var CSS = `
+  /* Tablero operativo: cabecera fija, resumen arriba, hallazgos agrupados por área abajo */
+  :root{
+    --bg:#ecedeb; --surface:#ffffff; --surface-2:#f5f5f2;
+    --ink:#14181c; --ink-soft:#434b52; --muted:#737b82; --faint:#9da3a8;
+    --line:#dfe0dc; --line-2:#eeefec;
+    --accent:#e2a400; --accent-ink:#14181c; --accent-soft:rgba(226,164,0,.16);
+    --open:#c62b2b; --open-bg:rgba(198,43,43,.09); --open-line:rgba(198,43,43,.26);
+    --prog:#b56a00; --prog-bg:rgba(181,106,0,.12); --prog-line:rgba(181,106,0,.30);
+    --done:#1d8257; --done-bg:rgba(29,130,87,.10); --done-line:rgba(29,130,87,.28);
+    --pend:#8a9097; --pend-bg:rgba(138,144,151,.12); --pend-line:rgba(138,144,151,.30);
+    --part:#3d6fb5; --part-bg:rgba(61,111,181,.10); --part-line:rgba(61,111,181,.28);
+    --h1:#c62b2b; --h2:#e07a2e; --h3:#e2b23a; --h4:#5aa86f; --h5:#1d8257;
+    --shadow-sm:0 1px 2px rgba(20,24,28,.06); --r:14px;
+  }
+  @media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+    --bg:#0d1013; --surface:#161a1e; --surface-2:#1d2227;
+    --ink:#eef0f1; --ink-soft:#b6bcc1; --muted:#848b91; --faint:#5e656b;
+    --line:#2a3036; --line-2:#20252a;
+    --accent:#f4bd2a; --accent-ink:#14181c; --accent-soft:rgba(244,189,42,.16);
+    --open:#ff6b62; --open-bg:rgba(255,107,98,.13); --open-line:rgba(255,107,98,.32);
+    --prog:#f0a94a; --prog-bg:rgba(240,169,74,.15); --prog-line:rgba(240,169,74,.32);
+    --done:#3fc88a; --done-bg:rgba(63,200,138,.13); --done-line:rgba(63,200,138,.32);
+    --pend:#8a929a; --pend-bg:rgba(138,146,154,.14); --pend-line:rgba(138,146,154,.30);
+    --part:#7aa7ec; --part-bg:rgba(122,167,236,.13); --part-line:rgba(122,167,236,.32);
+    --h1:#d9483f; --h2:#d98236; --h3:#c9a63a; --h4:#4f9d66; --h5:#2f9f6e;
+    --shadow-sm:0 1px 2px rgba(0,0,0,.35); color-scheme:dark;
+  }}
+  :root[data-theme="dark"]{
+    --bg:#0d1013; --surface:#161a1e; --surface-2:#1d2227;
+    --ink:#eef0f1; --ink-soft:#b6bcc1; --muted:#848b91; --faint:#5e656b;
+    --line:#2a3036; --line-2:#20252a;
+    --accent:#f4bd2a; --accent-ink:#14181c; --accent-soft:rgba(244,189,42,.16);
+    --open:#ff6b62; --open-bg:rgba(255,107,98,.13); --open-line:rgba(255,107,98,.32);
+    --prog:#f0a94a; --prog-bg:rgba(240,169,74,.15); --prog-line:rgba(240,169,74,.32);
+    --done:#3fc88a; --done-bg:rgba(63,200,138,.13); --done-line:rgba(63,200,138,.32);
+    --pend:#8a929a; --pend-bg:rgba(138,146,154,.14); --pend-line:rgba(138,146,154,.30);
+    --part:#7aa7ec; --part-bg:rgba(122,167,236,.13); --part-line:rgba(122,167,236,.32);
+    --h1:#d9483f; --h2:#d98236; --h3:#c9a63a; --h4:#4f9d66; --h5:#2f9f6e;
+    --shadow-sm:0 1px 2px rgba(0,0,0,.35); color-scheme:dark;
+  }
+  *{box-sizing:border-box} html,body{margin:0}
+  body{background:var(--bg);color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
+  body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:50;background:var(--surface)}
+  .wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+  .num{font-variant-numeric:tabular-nums}
+  h1,h2,h3{margin:0;font-family:Saira,Inter,sans-serif;font-weight:700;letter-spacing:-.01em;text-wrap:balance}
+  button{font-family:inherit} ::selection{background:var(--accent);color:var(--accent-ink)}
+
+  .top{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:color-mix(in srgb,var(--surface) 92%,transparent);backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--line)}
+  .top-in{display:flex;align-items:center;gap:16px;padding-block:12px}
+  .brand{display:flex;align-items:center;gap:12px;flex:0 0 auto}
+  .mk{font-family:Saira;font-weight:800;font-size:24px;letter-spacing:.1em;color:var(--ink);line-height:1;padding-bottom:5px;border-bottom:3px solid var(--accent);white-space:nowrap}
+  .brand .sub{font-family:Saira;font-weight:600;font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+  .top-title{flex:1 1 auto;min-width:0;border-left:1px solid var(--line);padding-left:16px}
+  .top-title h1{font-size:15.5px;line-height:1.15}
+  .top-title .meta{font-size:11.5px;color:var(--muted);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .gradebox{flex:0 0 auto;display:flex;align-items:center;gap:14px}
+  .grade{display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:84px;height:52px;padding:0 10px;border-radius:11px;background:var(--ink);color:var(--surface);font-family:Saira;font-weight:800;font-size:16px;line-height:1;text-transform:uppercase;letter-spacing:.04em}
+  .grade small{font-family:Inter;font-weight:600;font-size:8px;letter-spacing:.14em;opacity:.7;margin-top:4px}
+  .ov{text-align:right} .ov .big{font-family:Saira;font-weight:800;font-size:24px;line-height:1} .ov .lab{font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:3px}
+
+  .ebar{position:sticky;top:calc(env(safe-area-inset-top,0px) + 77px);z-index:35;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  .ebar-in{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding-block:10px}
+  .modetog{display:flex;background:var(--surface-2);border:1px solid var(--line);border-radius:9px;padding:3px;gap:2px}
+  .modetog button{border:0;background:transparent;color:var(--ink-soft);font-weight:600;font-size:13px;padding:7px 15px;border-radius:7px;cursor:pointer;display:inline-flex;align-items:center;gap:7px}
+  .modetog button.on{background:var(--ink);color:var(--surface)}
+  .evsel{display:flex;align-items:center;gap:8px;min-width:0}
+  .evsel label{font-size:10px;font-family:Saira;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  select.ev{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:8px;padding:8px 10px;font-family:inherit;font-size:13px;font-weight:600;max-width:340px;min-width:0}
+  .spacer{flex:1 1 auto}
+  .btn{border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:8px 13px;border-radius:8px;font-size:12.5px;font-weight:600;cursor:pointer;display:inline-flex;align-items:center;gap:7px;transition:.13s}
+  .btn:hover{border-color:var(--faint)} .btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+  .btn.primary#btnGuardar{opacity:.55} .btn.primary#btnGuardar.attn{opacity:1;box-shadow:0 0 0 3px var(--accent-soft);animation:pulseb 1.7s infinite}
+  @keyframes pulseb{50%{box-shadow:0 0 0 6px var(--accent-soft)}}
+  .btn.sm{padding:7px 10px;font-size:12px}
+  .btn.danger.armed{background:var(--open);border-color:var(--open);color:#fff}
+
+  main{padding-block:22px 90px}
+  .grid{display:grid;gap:16px} .summary{grid-template-columns:1.1fr 1.1fr 1.2fr} .two{grid-template-columns:1fr 1.5fr;margin-top:16px}
+  .grid > *{min-width:0}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow-sm);padding:18px}
+  .card h3{font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);font-family:Saira;font-weight:600;margin-bottom:14px;display:flex;align-items:center;justify-content:space-between;gap:8px}
+  .score-row{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap} .score-row .pct{font-family:Saira;font-weight:800;font-size:42px;line-height:.9} .score-row .of{font-size:12.5px;color:var(--muted)}
+  .note{font-size:11px;color:var(--muted);margin-top:8px}
+  .scale{display:flex;gap:6px;margin-top:14px}
+  .scale .s{flex:1;text-align:center;padding:6px 2px;border-radius:7px;background:var(--surface-2);border:1px solid var(--line-2);font-size:11px;color:var(--muted);min-width:0}
+  .scale .s b{font-family:Saira;font-size:12.5px;display:block;color:var(--ink-soft)} .scale .s.on{background:var(--accent);border-color:var(--accent)} .scale .s.on,.scale .s.on b{color:var(--accent-ink)} .scale .s .rng{font-size:9px}
+  .tally .big{font-family:Saira;font-weight:800;font-size:42px;line-height:.9} .tally .of{font-size:12.5px;color:var(--muted)}
+  .stack{display:flex;height:12px;border-radius:6px;overflow:hidden;margin-top:16px;border:1px solid var(--line-2)}
+  .stack span{height:100%} .stack .c{background:var(--done)} .stack .p{background:var(--part)} .stack .nc{background:var(--open)} .stack .na{background:var(--faint)} .stack .pe{background:var(--pend)}
+  .tkey{display:flex;gap:14px;margin-top:12px;flex-wrap:wrap} .tkey .k{display:flex;align-items:center;gap:7px;font-size:12.5px;color:var(--ink-soft)} .tkey .dot{width:10px;height:10px;border-radius:3px} .tkey .k b{font-family:Saira;font-weight:700;color:var(--ink)}
+  .dc{background:var(--done)} .dp{background:var(--part)} .dnc{background:var(--open)} .dna{background:var(--faint)} .dpe{background:var(--pend)}
+  .dab{background:var(--open)} .dpr{background:var(--prog)} .dcl{background:var(--done)}
+  .donut-wrap{display:flex;align-items:center;gap:18px}
+  .donut{--p:0;--d:0;width:112px;height:112px;border-radius:50%;flex:0 0 auto;position:relative;background:conic-gradient(var(--done) 0 calc(var(--d)*1%), var(--prog) 0 calc((var(--d) + var(--p))*1%), var(--open) 0 100%)}
+  .donut.empty{background:var(--surface-2)}
+  .donut::after{content:"";position:absolute;inset:14px;border-radius:50%;background:var(--surface);box-shadow:inset 0 0 0 1px var(--line-2)}
+  .donut .ctr{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:1}
+  .donut .ctr b{font-family:Saira;font-weight:800;font-size:26px;line-height:1} .donut .ctr span{font-size:9px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin-top:3px;white-space:nowrap}
+  .leg{display:flex;flex-direction:column;gap:9px;flex:1} .leg .li{display:flex;align-items:center;gap:9px;font-size:13px} .leg .li .cnt{margin-left:auto;font-family:Saira;font-weight:700;font-size:15px;color:var(--ink)} .leg .dot{width:10px;height:10px;border-radius:3px}
+
+  /* áreas oficiales */
+  .areas{display:flex;flex-direction:column;gap:11px}
+  .arow{display:grid;grid-template-columns:118px 1fr 52px;align-items:center;gap:10px;font-size:12.5px}
+  .arow .an{font-family:Saira;font-weight:600;letter-spacing:.03em;color:var(--ink-soft);line-height:1.15} .arow .an small{display:block;font-family:Inter;font-weight:400;font-size:10px;color:var(--muted);letter-spacing:0}
+  .arow .bar{height:10px;border-radius:5px;background:var(--surface-2);border:1px solid var(--line-2);overflow:hidden;position:relative}
+  .arow .bar span{display:block;height:100%}
+  .arow .bar i{position:absolute;top:-3px;bottom:-3px;width:1px;background:var(--faint)}
+  .arow .av{font-family:Saira;font-weight:700;text-align:right;font-variant-numeric:tabular-nums}
+  .bandkey{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px;font-size:11px;color:var(--muted)} .bandkey span{display:inline-flex;align-items:center;gap:5px} .bandkey i{width:9px;height:9px;border-radius:2px;display:inline-block}
+
+  .heat{overflow-x:auto}
+  table.hm{border-collapse:separate;border-spacing:4px;width:100%;min-width:560px;font-size:12.5px}
+  table.hm th{font-family:Saira;font-weight:600;font-size:9.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);text-align:center;padding:0 2px 4px}
+  table.hm th.rh{text-align:left;font-size:11px;letter-spacing:.04em;color:var(--ink-soft);padding-right:6px;white-space:nowrap}
+  table.hm td{text-align:center;border-radius:6px;padding:9px 2px;font-family:Saira;font-weight:700;font-variant-numeric:tabular-nums;color:#fff}
+  table.hm td.nd{background:var(--surface-2);color:var(--faint);font-weight:500}
+  .subs{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+  .subs .sb{font-size:11.5px;padding:5px 9px;border-radius:7px;border:1px solid var(--line);background:var(--surface-2);color:var(--ink-soft);display:inline-flex;gap:7px;align-items:center}
+  .subs .sb b{font-family:Saira;font-weight:700;font-variant-numeric:tabular-nums}
+  .subs .sb.crit b{color:var(--open)} .subs .sb.reg b{color:var(--prog)}
+  .sublab{font-family:Saira;font-weight:600;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:16px}
+
+  .modtable{margin-top:2px;overflow-x:auto}
+  table.mt{width:100%;border-collapse:collapse;font-size:13px;min-width:700px}
+  table.mt th{font-family:Saira;font-weight:600;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:left;padding:0 12px 10px;border-bottom:1px solid var(--line)}
+  table.mt th.r,table.mt td.r{text-align:right}
+  table.mt td{padding:11px 12px;border-bottom:1px solid var(--line-2);vertical-align:middle} table.mt tr:last-child td{border-bottom:0}
+  table.mt .mnm{font-weight:600;color:var(--ink)} table.mt .mnm i{font-style:normal;color:var(--faint);font-family:Saira;font-weight:700;margin-right:8px}
+  .mpct{font-family:Saira;font-weight:700;font-variant-numeric:tabular-nums} .badge-nc{font-family:Saira;font-weight:700;color:var(--open)} .badge-c{color:var(--done);font-weight:600} .badge-p{color:var(--part);font-weight:600}
+  .cbar{width:120px;height:8px;border-radius:5px;background:var(--surface-2);overflow:hidden;display:inline-flex;border:1px solid var(--line-2);vertical-align:middle} .cbar span{height:100%;background:var(--done)} .miniprog{display:inline-flex;align-items:center;gap:8px}
+
+  .toolbar{position:sticky;top:calc(env(safe-area-inset-top,0px) + 132px);z-index:20;margin:20px 0 4px;padding-block:10px;background:color-mix(in srgb,var(--bg) 86%,transparent);backdrop-filter:blur(8px)}
+  .tb-in{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  .search{position:relative;flex:1 1 220px;min-width:0}
+  .search input{width:100%;padding:9px 12px 9px 34px;border:1px solid var(--line);border-radius:9px;background:var(--surface);color:var(--ink);font-size:13.5px;outline:none}
+  .search input:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)} .search svg{position:absolute;left:11px;top:50%;transform:translateY(-50%);opacity:.5}
+  .chips{display:flex;gap:6px;flex-wrap:wrap}
+  .chip{border:1px solid var(--line);background:var(--surface);color:var(--ink-soft);padding:8px 12px;border-radius:8px;font-size:12.5px;cursor:pointer;font-weight:500;display:inline-flex;align-items:center;gap:7px;white-space:nowrap;transition:.13s}
+  .chip:hover{border-color:var(--faint)} .chip.on{background:var(--ink);border-color:var(--ink);color:var(--surface)}
+  .chip.on.nc{background:var(--open);border-color:var(--open);color:#fff} .chip.on.c{background:var(--done);border-color:var(--done);color:#fff} .chip.on.p{background:var(--part);border-color:var(--part);color:#fff}
+  .chip .n{font-variant-numeric:tabular-nums;opacity:.72;font-size:11px}
+  .savechip{font-size:12px;color:var(--muted);display:inline-flex;align-items:center;gap:6px;padding:0 4px;white-space:nowrap} .savechip .d{width:8px;height:8px;border-radius:50%;background:var(--faint)}
+  .savechip.saving .d{background:var(--prog);animation:pulse 1s infinite} .savechip.saved .d{background:var(--done)} .savechip.err .d{background:var(--open)} .savechip.dirty .d{background:var(--accent)}
+  @keyframes pulse{50%{opacity:.35}}
+
+  .metaedit{display:grid;grid-template-columns:1.4fr 1.2fr 1fr .8fr;gap:12px;margin-bottom:4px}
+  .metaedit input{width:100%;border:1px solid var(--line);border-radius:8px;background:var(--surface-2);color:var(--ink);font-family:inherit;font-size:13.5px;padding:8px 10px;outline:none}
+  .metaedit input:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft);background:var(--surface)}
+  .progwrap{display:flex;align-items:center;gap:14px;margin-top:14px;flex-wrap:wrap}
+  .progbar{flex:1 1 200px;height:10px;border-radius:6px;background:var(--surface-2);overflow:hidden;border:1px solid var(--line-2)} .progbar span{display:block;height:100%;background:var(--accent);transition:width .2s}
+  .progtxt{font-size:12.5px;color:var(--muted)} .progtxt b{font-family:Saira;color:var(--ink)}
+  .locknote{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--muted);background:var(--surface-2);border:1px solid var(--line);border-radius:8px;padding:9px 12px;margin-top:12px}
+
+  .modgroup{margin-top:18px}
+  .mghead{display:flex;align-items:center;gap:13px;cursor:pointer;padding:12px 16px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow-sm)}
+  .mghead .idx{font-family:Saira;font-weight:800;font-size:15px;color:var(--accent);background:var(--ink);width:30px;height:30px;border-radius:8px;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+  .mghead .t{flex:1;min-width:0} .mghead .t b{font-family:Saira;font-size:16px;font-weight:700;display:block;line-height:1.1} .mghead .t span{font-size:11.5px;color:var(--muted)}
+  .mghead .mgpct{font-family:Saira;font-weight:700;font-size:15px;color:var(--ink-soft);font-variant-numeric:tabular-nums;text-align:right} .mghead .mgsub{font-size:10.5px;color:var(--muted);text-align:right;margin-top:1px;white-space:nowrap}
+  .mghead .caret{transition:.2s;opacity:.5;flex:0 0 auto} .modgroup.col .caret{transform:rotate(-90deg)} .modgroup.col .cards{display:none}
+  .cards{display:flex;flex-direction:column;gap:8px;margin-top:10px}
+  .secsub{font-family:Saira;font-weight:600;font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--muted);padding:12px 4px 3px;display:flex;align-items:center;gap:9px} .secsub::after{content:"";flex:1;height:1px;background:var(--line)}
+
+  .pill{font-family:Saira;font-weight:700;font-size:10px;letter-spacing:.04em;padding:3px 9px;border-radius:999px;display:inline-flex;align-items:center;gap:5px;text-transform:uppercase;white-space:nowrap;flex:0 0 auto}
+  .pill .sw{width:7px;height:7px;border-radius:50%;background:currentColor}
+  .pill.c{color:var(--done);background:var(--done-bg);border:1px solid var(--done-line)}
+  .pill.nc{color:var(--open);background:var(--open-bg);border:1px solid var(--open-line)}
+  .pill.p{color:var(--part);background:var(--part-bg);border:1px solid var(--part-line)}
+  .pill.na{color:var(--muted);background:var(--surface-2);border:1px solid var(--line)}
+  .pill.pend{color:var(--pend);background:var(--pend-bg);border:1px solid var(--pend-line)}
+
+  .row{display:flex;align-items:flex-start;gap:12px;padding:9px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface);box-shadow:var(--shadow-sm)}
+  .row .rt{flex:1;min-width:0;font-size:13.5px;color:var(--ink-soft);line-height:1.35} .row .rt .rid{font-family:Saira;font-weight:700;font-size:10px;color:var(--faint);margin-right:8px;font-variant-numeric:tabular-nums}
+  .row .rt small{display:block;font-size:11.5px;color:var(--muted);margin-top:2px}
+  .row.na .rt,.row.pend .rt{color:var(--muted)}
+
+  .fc{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow-sm);overflow:hidden;position:relative;padding-left:6px}
+  .fc::before{content:"";position:absolute;left:0;top:0;bottom:0;width:6px;background:var(--open)}
+  .fc[data-est="proceso"]::before{background:var(--prog)} .fc[data-est="cerrado"]::before{background:var(--done)}
+  .fc-in{padding:14px 18px 16px} .fc-top{display:flex;align-items:center;gap:10px;flex-wrap:wrap} .fid{font-family:Saira;font-weight:700;font-size:10px;color:var(--faint);font-variant-numeric:tabular-nums;margin-left:auto}
+  .fc .req{font-size:14.5px;font-weight:500;color:var(--ink);margin:11px 0 0;line-height:1.42;max-width:74ch}
+  .fc .obs{font-size:13px;color:var(--ink-soft);margin-top:9px;padding:9px 12px;border-radius:9px;background:var(--accent-soft);border:1px solid color-mix(in srgb,var(--accent) 40%,transparent);line-height:1.4;max-width:80ch}
+  .fc .obs b{font-family:Saira;font-weight:600;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);display:block;margin-bottom:2px}
+  .fu{display:grid;grid-template-columns:1.1fr .8fr 1fr;gap:12px;margin-top:14px;padding-top:14px;border-top:1px dashed var(--line)}
+  .fu > *{min-width:0}
+  .fld label{font-size:10px;font-family:Saira;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:5px}
+  .fld input,.fld textarea{width:100%;border:1px solid var(--line);border-radius:8px;background:var(--surface-2);color:var(--ink);font-family:inherit;font-size:13.5px;padding:8px 10px;outline:none;resize:vertical}
+  .fld input:focus,.fld textarea:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft);background:var(--surface)} .fld textarea{min-height:38px;line-height:1.4} .fu .acc{grid-column:1 / -1}
+  .est{display:flex;gap:6px}
+  .est button{flex:1;border:1px solid var(--line);background:var(--surface-2);color:var(--muted);padding:8px 4px;border-radius:8px;font-size:11.5px;font-weight:600;cursor:pointer;transition:.12s;display:flex;align-items:center;justify-content:center;gap:5px;font-family:Saira;letter-spacing:.02em}
+  .est button .sw{width:8px;height:8px;border-radius:50%;background:currentColor;opacity:.55} .est button:hover{border-color:var(--faint)} .est button.on{color:#fff} .est button.on .sw{opacity:1;background:#fff}
+  .est button[data-v="abierto"].on{background:var(--open);border-color:var(--open)} .est button[data-v="proceso"].on{background:var(--prog);border-color:var(--prog)} .est button[data-v="cerrado"].on{background:var(--done);border-color:var(--done)}
+
+  .qrow{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px 16px;align-items:start;padding:12px 14px;border:1px solid var(--line);border-radius:11px;background:var(--surface);box-shadow:var(--shadow-sm)}
+  .qrow[data-r="NC"]{border-color:var(--open-line)} .qrow[data-r="P"]{border-color:var(--part-line)} .qrow .qtxt{font-size:13.5px;color:var(--ink);line-height:1.4} .qrow .qtxt .rid{font-family:Saira;font-weight:700;font-size:10px;color:var(--faint);margin-right:8px}
+  .seg{display:flex;gap:5px;flex:0 0 auto}
+  .seg button{border:1px solid var(--line);background:var(--surface-2);color:var(--muted);padding:7px 11px;border-radius:8px;font-size:12px;font-weight:600;cursor:pointer;font-family:Saira;letter-spacing:.02em;transition:.12s;white-space:nowrap;display:inline-flex;align-items:center;gap:6px}
+  .seg button .sw{width:8px;height:8px;border-radius:50%;background:currentColor;opacity:.5} .seg button:hover{border-color:var(--faint)}
+  .seg button.on .sw{opacity:1;background:#fff} .seg button.on{color:#fff}
+  .seg button[data-r="C"].on{background:var(--done);border-color:var(--done)} .seg button[data-r="P"].on{background:var(--part);border-color:var(--part)} .seg button[data-r="NC"].on{background:var(--open);border-color:var(--open)} .seg button[data-r="NA"].on{background:var(--faint);border-color:var(--faint)}
+  .qobs{grid-column:1 / -1;width:100%;border:1px solid var(--line);border-radius:8px;background:var(--surface-2);color:var(--ink);font-family:inherit;font-size:13px;padding:7px 10px;outline:none}
+  .qobs:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft);background:var(--surface)}
+  body.locked .seg button,body.locked .qobs{pointer-events:none;opacity:.75}
+
+  /* evidencias */
+  .evd{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-top:10px}
+  .qrow .evd{grid-column:1 / -1;margin-top:0} .row .evd{margin-top:6px}
+  .evd-lab{font-family:Saira;font-weight:600;font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin-right:2px}
+  .evd-none{font-size:11.5px;color:var(--faint)} .evd-none.warn{color:var(--prog)}
+  .evf{display:inline-flex;align-items:stretch;border:1px solid var(--line);border-radius:8px;background:var(--surface-2);max-width:100%;overflow:hidden}
+  .evf button{border:0;background:transparent;color:var(--ink-soft);font-family:inherit;font-size:12px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;padding:5px 8px;min-width:0}
+  .evf .evf-open:hover{background:var(--line-2)} .evf .evf-open span.nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:220px}
+  .evf small{color:var(--muted);font-size:10.5px;font-variant-numeric:tabular-nums}
+  .evf .ic{font-family:Saira;font-weight:700;font-size:9px;letter-spacing:.04em;color:#fff;border-radius:4px;padding:2px 4px;line-height:1.2;flex:0 0 auto}
+  .ic.k-img{background:#2f7d9c} .ic.k-pdf{background:#c0392b} .ic.k-doc{background:#2b5797} .ic.k-xls{background:#1e7145} .ic.k-file{background:#6b7178}
+  .evf img.th{width:22px;height:22px;object-fit:cover;border-radius:4px;flex:0 0 auto;background:var(--line)}
+  .evf .ev-del{border-left:1px solid var(--line);color:var(--muted);padding:5px 8px;font-size:14px;line-height:1}
+  .evf .ev-del:hover{color:var(--open)} .evf .ev-del.armed{background:var(--open);color:#fff;font-size:11px;font-weight:600}
+  .ev-add{border:1px dashed var(--faint);background:transparent;color:var(--ink-soft);font-family:inherit;font-size:12px;font-weight:600;padding:5px 10px;border-radius:8px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
+  .ev-add:hover{border-color:var(--accent);color:var(--ink);background:var(--accent-soft)}
+  .ev-up{font-size:12px;color:var(--prog);display:inline-flex;align-items:center;gap:6px} .ev-up::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--prog);animation:pulse 1s infinite}
+  body.readonly .ev-add,body.readonly .ev-del,body.noassets .ev-add,body.noassets .ev-del{display:none}
+  .vwbody{margin-top:12px;max-height:68vh;overflow:auto;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);padding:14px}
+  .vwbody img{display:block;max-width:100%;margin:0 auto;border-radius:6px}
+  .vwbody.doc{background:#fff;color:#1b1b1b;font-family:Calibri,Carlito,"Segoe UI",sans-serif;font-size:14px;line-height:1.5}
+  .vwbody.doc table{border-collapse:collapse} .vwbody.doc td,.vwbody.doc th{border:1px solid #c9c9c9;padding:4px 6px}
+  .vwbody.sheet table{border-collapse:collapse;font-size:12px;background:var(--surface)} .vwbody.sheet td,.vwbody.sheet th{border:1px solid var(--line);padding:4px 7px;white-space:nowrap;color:var(--ink)}
+  .vwtabs{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
+  .ovcard.wide{max-width:980px}
+  .vwmeta{font-size:12px;color:var(--muted)}
+
+  .empty{text-align:center;color:var(--muted);padding:50px 20px;font-size:14px}
+  .foot{margin-top:34px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;line-height:1.6;max-width:110ch} .foot b{color:var(--ink-soft);font-weight:600}
+  .toast{position:fixed;left:50%;bottom:calc(26px + env(safe-area-inset-bottom,0px));transform:translateX(-50%) translateY(20px);background:var(--ink);color:var(--surface);padding:11px 18px;border-radius:10px;font-size:13px;font-weight:500;opacity:0;pointer-events:none;transition:.25s;z-index:60;max-width:calc(100% - 32px)} .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+  .overlay{position:fixed;inset:0;z-index:80;background:rgba(10,12,14,.5);backdrop-filter:blur(3px);display:flex;align-items:flex-start;justify-content:center;padding:70px 16px 16px;overflow:auto}
+  .ovcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);box-shadow:0 20px 50px -20px rgba(0,0,0,.5);width:100%;max-width:640px;padding:20px}
+  .ovhead{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px}
+  .ovnote{font-size:12px;color:var(--muted);margin-bottom:14px}
+  .paplist{display:flex;flex-direction:column;gap:8px}
+  .paprow{display:flex;align-items:center;gap:12px;padding:11px 13px;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);flex-wrap:wrap}
+  .paptxt{flex:1;min-width:0} .paptxt b{display:block;font-family:Saira;font-weight:700;font-size:14px} .paptxt span{font-size:11.5px;color:var(--muted)}
+  .papbtns{display:flex;gap:6px;flex:0 0 auto}
+  .roflag{display:none;align-items:center;gap:8px;font-size:12px;color:var(--muted);background:var(--surface-2);border:1px solid var(--line);border-radius:8px;padding:7px 12px}
+  body.readonly .roflag{display:inline-flex}
+  body.readonly .fld input,body.readonly .fld textarea,body.readonly .seg button,body.readonly .qobs,body.readonly .metaedit input{pointer-events:none;opacity:.7}
+  body.readonly .est button{pointer-events:none;opacity:.85} body.readonly .btn.primary,body.readonly #btnNueva,body.readonly #btnDup,body.readonly #btnDel{display:none}
+
+  @media (max-width:900px){ .summary,.two{grid-template-columns:1fr} .top-title .meta{white-space:normal} .fu{grid-template-columns:1fr 1fr} .fu .est-fld{grid-column:1 / -1} .metaedit{grid-template-columns:1fr 1fr} .ebar,.toolbar{position:static} }
+  @media (max-width:640px){ .qrow{grid-template-columns:1fr} .seg{flex-wrap:wrap} .arow{grid-template-columns:96px 1fr 48px} }
+  @media (max-width:560px){ .top-in{flex-wrap:wrap;gap:12px} .top-title{border-left:0;padding-left:0;flex-basis:100%;order:3} .fu{grid-template-columns:1fr} .mk{font-size:21px} .metaedit{grid-template-columns:1fr} .donut-wrap{flex-wrap:wrap} .scale .s .rng{display:none} }
+  @media (prefers-reduced-motion:reduce){*{animation:none !important;transition:none !important}}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  `;
+
+  var EST=["abierto","proceso","cerrado"], EST_LABEL={abierto:"Abierto",proceso:"En proceso",cerrado:"Cerrado"};
+  var ST_LABEL={C:"Cumple",P:"Parcial",NC:"No Cumple",NA:"No Aplica","":"Pendiente"};
+  var RES=[["C","Cumple"],["P","Parcial"],["NC","No Cumple"],["NA","No Aplica"]];
+
+  var state=JSON.parse(document.getElementById("state").textContent);
+  if(!state.papelera) state.papelera=[];
+  var TPL=state.template, PTS=TPL.points, MODS=TPL.modules, PARAMS=TPL.meta.parametros;
+
+  var DOC_ID="cesvi-colision-0606";
+  var ui={mode:"resultados",active:(state.evaluaciones[0]||{}).id,q:"",mod:"ALL",res:"ALL",collapsed:{}};
+  var pendingScroll=0;
+  try{ var r=sessionStorage.getItem("ui:"+DOC_ID); if(r){ var u=JSON.parse(r); if(u.ui) ui=Object.assign(ui,u.ui); pendingScroll=u.scrollY||0; } }catch(e){}
+  if(!state.evaluaciones.some(function(e){return e.id===ui.active;})) ui.active=(state.evaluaciones[0]||{}).id;
+
+  var esc=function(s){return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");};
+  var mod=function(id){return MODS.find(function(x){return x.id===id});};
+  var fmt=function(n,d){ return Number(n).toFixed(d==null?1:d).replace(".",","); };
+  function activeEv(){ return state.evaluaciones.find(function(e){return e.id===ui.active;}) || state.evaluaciones[0]; }
+  function ensureEv(ev){ if(!ev.resp)ev.resp={}; if(!ev.seg)ev.seg={}; if(!ev.evid)ev.evid={}; PTS.forEach(function(p){ if(!ev.resp[p.id]) ev.resp[p.id]={r:"",obs:""}; }); }
+  function isPlan(r){ return r==="NC"||r==="P"; }
+  function tallyOf(list,ev){ var c={C:0,P:0,NC:0,NA:0,"":0}; list.forEach(function(p){ c[(ev.resp[p.id]||{}).r||""]++; }); return c; }
+  function counts(ev){ return tallyOf(PTS,ev); }
+  function pctOf(c){ var d=c.C+c.P+c.NC; return d?Math.round((c.C+c.P*0.5)/d*1000)/10:0; }
+  function compliance(ev){ return pctOf(counts(ev)); }
+  function gradeOf(p){ var e=TPL.meta.escala; for(var i=0;i<e.length;i++){ if(p>=e[i].min) return e[i].g; } return e[e.length-1].g; }
+  function bandColor(v){ return v>=90?"var(--h5)":v>=80?"var(--h4)":v>=70?"var(--h3)":v>=55?"var(--h2)":"var(--h1)"; }
+  function planPts(ev){ return PTS.filter(function(p){ return isPlan((ev.resp[p.id]||{}).r); }); }
+  function estCounts(ev,list){ var c={abierto:0,proceso:0,cerrado:0}; (list||planPts(ev)).forEach(function(p){ var s=ev.seg[p.id]; c[(s&&s.est)||"abierto"]++; }); return c; }
+  function areaPct(ev,m){ if(!ev.oficial) return null; var a=ev.oficial.areas.find(function(x){return x.k===m.area;}); return a?a.pct:null; }
+  state.evaluaciones.forEach(ensureEv);
+
+  document.title="Plan CESVI Colisión";
+  var pc=document.createElement("link"); pc.rel="preconnect"; pc.href="https://fonts.gstatic.com"; pc.crossOrigin=""; document.head.appendChild(pc);
+  var fl=document.createElement("link"); fl.rel="stylesheet"; fl.href="https://fonts.googleapis.com/css2?family=Saira:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"; document.head.appendChild(fl);
+  var stEl=document.createElement("style"); stEl.textContent=CSS; document.head.appendChild(stEl);
+
+  var root=document.getElementById("root");
+  function svgSearch(){return '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>';}
+  function svgCaret(){return '<svg class="caret" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 9l6 6 6-6"/></svg>';}
+  function svgList(){return '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>';}
+  function svgGrid(){return '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>';}
+
+  function scoreInfo(ev){
+    if(ev.oficial){ return {pct:ev.oficial.pct, grade:gradeOf(ev.oficial.pct), label:"Calificación seguimiento", sub:"Nota oficial CESVI · áreas operativas"}; }
+    var c=counts(ev), p=pctOf(c), has=(c.C+c.P+c.NC)>0;
+    return {pct:p, has:has, grade:has?gradeOf(p):"—", label:"Cumplimiento de requisitos", sub:has?"autoevaluación (parcial = ½)":"aún sin respuestas"};
+  }
+
+  function renderShell(){
+    var evOpts=state.evaluaciones.map(function(e){ return '<option value="'+e.id+'"'+(e.id===ui.active?" selected":"")+'>'+esc(e.nombre)+' · '+esc(e.fecha||"")+'</option>'; }).join("");
+    root.innerHTML=
+    '<header class="top"><div class="wrap top-in">'
+      +'<div class="brand"><div class="mk">MOTOR K</div><div class="sub">Taller de<br>Colisión</div></div>'
+      +'<div class="top-title"><h1>'+esc(TPL.meta.titulo)+'</h1><div class="meta" id="topmeta"></div></div>'
+      +'<div class="gradebox"><div class="ov"><div class="big num" id="topPct"></div><div class="lab" id="topLab"></div></div><div class="grade" id="topGrade"></div></div>'
+    +'</div></header>'
+    +'<div class="ebar"><div class="wrap ebar-in">'
+      +'<div class="modetog"><button id="mR" class="'+(ui.mode==="resultados"?"on":"")+'">'+svgGrid()+' Resultados</button><button id="mC" class="'+(ui.mode==="cuestionario"?"on":"")+'">'+svgList()+' Cuestionario</button></div>'
+      +'<div class="evsel"><label for="evSel">Evaluación</label><select class="ev" id="evSel">'+evOpts+'</select></div>'
+      +'<span class="spacer"></span><span class="roflag">Solo lectura</span>'
+      +'<span id="saveChip" class="savechip"><span class="d"></span><span class="t">Sin cambios</span></span>'
+      +'<button class="btn sm primary" id="btnGuardar">Guardar cambios</button>'
+      +'<button class="btn sm" id="btnNueva">+ Nueva</button>'
+      +'<button class="btn sm" id="btnDup">Duplicar</button>'
+      +'<button class="btn sm danger" id="btnDel">Eliminar</button>'
+      +'<button class="btn sm" id="btnPapelera">Papelera <span id="papN" class="num"></span></button>'
+    +'</div></div>'
+    +'<main class="wrap"><div id="body"></div>'
+      +'<div class="foot" id="foot"></div></main><div class="toast" id="toast" role="status"></div>';
+
+    document.getElementById("mR").addEventListener("click",function(){ setMode("resultados"); });
+    document.getElementById("mC").addEventListener("click",function(){ setMode("cuestionario"); });
+    document.getElementById("evSel").addEventListener("change",function(e){ harvest(); ui.active=e.target.value; persistUI(); renderShell(); renderBody(); });
+    document.getElementById("btnGuardar").addEventListener("click",function(){ harvest(); doSave(true); });
+    document.getElementById("btnNueva").addEventListener("click",nuevaEval);
+    document.getElementById("btnDup").addEventListener("click",dupEval);
+    document.getElementById("btnDel").addEventListener("click",delEval);
+    document.getElementById("btnPapelera").addEventListener("click",openPapelera);
+    updateTop(); applyLock(); updatePapBadge(); refreshSaveBtn();
+  }
+  function refreshSaveBtn(){ var b=document.getElementById("btnGuardar"); if(b) b.classList.toggle("attn", dirty); }
+  function updatePapBadge(){ var b=document.getElementById("papN"); if(b) b.textContent="("+(state.papelera?state.papelera.length:0)+")"; }
+  function updateTop(){
+    var ev=activeEv(), si=scoreInfo(ev), c=counts(ev);
+    document.getElementById("topmeta").innerHTML=esc(ev.nombre)+' &nbsp;·&nbsp; '+esc(ev.sitio||"")+' &nbsp;·&nbsp; '+esc(ev.fecha||"")+(ev.oficial?' &nbsp;·&nbsp; Oficial':(c[""]? ' &nbsp;·&nbsp; '+(PTS.length-c[""])+'/'+PTS.length+' evaluados':' &nbsp;·&nbsp; Completa'));
+    document.getElementById("topPct").textContent=si.has===false?"—":fmt(si.pct)+"%";
+    document.getElementById("topLab").textContent=ev.oficial?"Seguimiento V-2":"Cumplimiento";
+    document.getElementById("topGrade").innerHTML=esc(si.grade)+'<small>NIVEL</small>';
+  }
+  function applyLock(){ document.body.classList.toggle("locked", !!activeEv().bloqueada && ui.mode==="cuestionario"); }
+  function setMode(m){ harvest(); ui.mode=m; persistUI(); document.getElementById("mR").classList.toggle("on",m==="resultados"); document.getElementById("mC").classList.toggle("on",m==="cuestionario"); applyLock(); renderBody(); window.scrollTo(0,0); }
+
+  function renderBody(){ if(ui.mode==="resultados") renderResultados(); else renderCuestionario(); renderFoot(); }
+
+  function toolbarHTML(withRes){
+    var ev=activeEv(), c=counts(ev);
+    var resChips="";
+    if(withRes){
+      var defs=[["ALL","Todos",PTS.length,""],["NC","No cumple",c.NC,"nc"],["P","Parcial",c.P,"p"],["C","Cumple",c.C,"c"],["NA","No aplica",c.NA,""]];
+      if(c[""]) defs.push(["","Pendientes",c[""],""]);
+      resChips='<div class="chips" id="resChips">'+defs.map(function(d){return '<button class="chip '+d[3]+(ui.res===d[0]?" on":"")+'" data-res="'+d[0]+'">'+d[1]+' <span class="n">'+d[2]+'</span></button>';}).join("")+'</div>';
+    }
+    return '<div class="toolbar"><div class="tb-in"><div class="search">'+svgSearch()+'<input id="q" type="text" placeholder="Buscar requisito, parámetro u observación…" autocomplete="off" aria-label="Buscar"></div>'
+      +resChips+'<span class="spacer"></span>'
+      +'<button class="btn" id="btnExport">Exportar CSV</button>'
+      +'</div><div class="chips" id="modChips" style="margin-top:9px"></div></div>';
+  }
+  function wireToolbar(withRes){
+    var q=document.getElementById("q"); q.value=ui.q; q.addEventListener("input",function(e){ harvest(); ui.q=e.target.value; renderList(); persistUI(); });
+    if(withRes){ Array.prototype.forEach.call(document.querySelectorAll("#resChips .chip"),function(b){ b.addEventListener("click",function(){ harvest(); ui.res=b.getAttribute("data-res"); Array.prototype.forEach.call(document.querySelectorAll("#resChips .chip"),function(x){x.classList.toggle("on",x===b);}); renderList(); persistUI(); }); }); }
+    renderModChips();
+    document.getElementById("btnExport").addEventListener("click",exportCSV);
+  }
+  function renderModChips(){
+    var host=document.getElementById("modChips"); if(!host) return;
+    var all='<button class="chip'+(ui.mod==="ALL"?" on":"")+'" data-mod="ALL">Todas las áreas <span class="n">'+PTS.length+'</span></button>';
+    host.innerHTML=all+MODS.map(function(m){ var n=PTS.filter(function(p){return p.m===m.id;}).length; return '<button class="chip'+(ui.mod===m.id?" on":"")+'" data-mod="'+m.id+'">'+m.n+'. '+esc(m.name)+' <span class="n">'+n+'</span></button>'; }).join("");
+    Array.prototype.forEach.call(host.querySelectorAll(".chip"),function(b){ b.addEventListener("click",function(){ harvest(); ui.mod=b.getAttribute("data-mod"); renderModChips(); renderList(); persistUI(); }); });
+  }
+
+  function areasCard(ev){
+    var o=ev.oficial;
+    var rows=o.areas.map(function(a){ return '<div class="arow"><div class="an">'+esc(a.k)+(a.nota?'<small>'+esc(a.nota)+'</small>':'')+'</div><div class="bar"><span style="width:'+a.pct+'%;background:'+bandColor(a.pct)+'"></span><i style="left:70%"></i><i style="left:80%"></i><i style="left:90%"></i></div><div class="av">'+fmt(a.pct)+'%</div></div>'; }).join("");
+    return '<div class="card"><h3>Calificación por área</h3><div class="areas">'+rows+'</div>'
+      +'<div class="bandkey"><span><i style="background:var(--h5)"></i>Excelente ≥90</span><span><i style="background:var(--h4)"></i>Bueno 80–89</span><span><i style="background:var(--h3)"></i>Regular 70–79</span><span><i style="background:var(--h1)"></i>Crítico &lt;70</span></div></div>';
+  }
+  function heatCard(ev){
+    var o=ev.oficial;
+    var head='<tr><th></th>'+PARAMS.map(function(p){return '<th>'+esc(p)+'</th>';}).join("")+'</tr>';
+    var body=o.mapa.map(function(r){ return '<tr><th class="rh">'+esc(r.k)+'</th>'+r.v.map(function(v){ return v==null?'<td class="nd">—</td>':'<td style="background:'+bandColor(v)+'">'+v+'%</td>'; }).join("")+'</tr>'; }).join("");
+    var subs=o.subareas.map(function(s){ return '<span class="sb '+(s.v<70?"crit":s.v<80?"reg":"")+'">'+esc(s.k)+' <b>'+s.v+'%</b></span>'; }).join("");
+    return '<div class="card"><h3>Mapa de calor · parámetro × área</h3><div class="heat"><table class="hm"><thead>'+head+'</thead><tbody>'+body+'</tbody></table></div>'
+      +'<div class="sublab">Subáreas por debajo de 85%, de menor a mayor</div><div class="subs">'+subs+'</div></div>';
+  }
+
+  function renderResultados(){
+    var ev=activeEv(), si=scoreInfo(ev), c=counts(ev), tot=PTS.length;
+    if(ui.res!=="ALL" && !c[ui.res]) ui.res="ALL";
+    var scaleH=TPL.meta.escala.map(function(s){return '<div class="s'+(s.g===si.grade?" on":"")+'"><b>'+esc(s.g)+'</b><span class="rng">'+esc(s.d)+'</span></div>';}).join("");
+    var tallyCard;
+    if(ev.oficial){
+      var g=ev.oficial.global, e=g.evaluados, cp=g.cumplidos/e*100, pp=g.parcial/e*100, hp=g.hallazgos/e*100;
+      tallyCard='<div class="card"><h3>Requisitos evaluados por CESVI <span class="num" style="color:var(--done);font-family:Saira;font-weight:700">'+g.pct+'%</span></h3><div class="tally"><span class="big num">'+g.cumplidos+'</span><span class="of"> de '+e+' requisitos cumplidos</span></div>'
+        +'<div class="stack"><span class="c" style="width:'+cp+'%"></span><span class="p" style="width:'+pp+'%"></span><span class="nc" style="width:'+hp+'%"></span></div>'
+        +'<div class="tkey"><div class="k"><span class="dot dc"></span>Cumplidos <b class="num">'+g.cumplidos+'</b></div><div class="k"><span class="dot dp"></span>Parcial <b class="num">'+g.parcial+'</b></div><div class="k"><span class="dot dnc"></span>Hallazgos <b class="num">'+g.hallazgos+'</b></div></div>'
+        +'<div class="note">Este tablero agrupa los hallazgos en '+tot+' requisitos accionables ('+(c.NC+c.P)+' con plan de acción).</div></div>';
+    } else {
+      var cP=c.C/tot*100, pP=c.P/tot*100, ncP=c.NC/tot*100, naP=c.NA/tot*100;
+      tallyCard='<div class="card"><h3>Resultado de requisitos <span class="num" style="color:var(--done);font-family:Saira;font-weight:700">'+fmt(compliance(ev))+'%</span></h3><div class="tally"><span class="big num">'+c.C+'</span><span class="of"> de '+tot+' cumplen</span></div>'
+        +'<div class="stack"><span class="c" style="width:'+cP+'%"></span><span class="p" style="width:'+pP+'%"></span><span class="nc" style="width:'+ncP+'%"></span><span class="na" style="width:'+naP+'%"></span><span class="pe" style="width:'+Math.max(0,100-cP-pP-ncP-naP)+'%"></span></div>'
+        +'<div class="tkey"><div class="k"><span class="dot dc"></span>Cumple <b class="num">'+c.C+'</b></div><div class="k"><span class="dot dp"></span>Parcial <b class="num">'+c.P+'</b></div><div class="k"><span class="dot dnc"></span>No cumple <b class="num">'+c.NC+'</b></div><div class="k"><span class="dot dna"></span>N/A <b class="num">'+c.NA+'</b></div>'+(c[""]?'<div class="k"><span class="dot dpe"></span>Pendiente <b class="num">'+c[""]+'</b></div>':'')+'</div></div>';
+    }
+    var body=document.getElementById("body");
+    body.innerHTML=
+      '<div class="grid summary">'
+      +'<div class="card"><h3>'+esc(si.label)+'</h3><div class="score-row"><div class="pct num">'+(si.has===false?"—":fmt(si.pct)+'%')+'</div><div class="of">'+esc(si.sub)+'</div></div><div class="scale">'+scaleH+'</div>'+(ev.oficial?'<div class="note">Evaluación formativa de calidad de procesos: '+fmt(ev.oficial.areas[4].pct)+'% (no suma a la nota de seguimiento).</div>':'')+'</div>'
+      +tallyCard
+      +'<div class="card"><h3>Avance del plan de acción <span id="sumPct" class="num" style="color:var(--done);font-family:Saira;font-weight:700"></span></h3><div class="donut-wrap"><div id="donut" class="donut"><div class="ctr"><b id="donutN" class="num"></b><span id="donutSub"></span></div></div><div class="leg" id="leg"></div></div></div>'
+      +'</div>'
+      +(ev.oficial?'<div class="grid two">'+areasCard(ev)+heatCard(ev)+'</div>':'')
+      +'<div class="card" style="margin-top:16px"><h3>Desglose por área del tablero</h3><div class="modtable"><table class="mt"><thead><tr><th>Área</th>'+(ev.oficial?'<th class="r">Nota CESVI</th>':'<th class="r">Cumplimiento</th>')+'<th class="r">Cumple</th><th class="r">Parcial</th><th class="r">No cumple</th><th class="r">N/A</th>'+(c[""]?'<th class="r">Pend.</th>':'')+'<th>Avance plan</th></tr></thead><tbody id="mtbody"></tbody></table></div></div>'
+      +toolbarHTML(true)+'<div id="list"></div>';
+    renderSummaryDynamic(); wireToolbar(true); renderList();
+  }
+  function renderSummaryDynamic(){
+    var ev=activeEv(), pl=planPts(ev), cc=estCounts(ev,pl), t=pl.length;
+    var donut=document.getElementById("donut"); if(!donut) return;
+    if(!t){ donut.classList.add("empty"); document.getElementById("donutN").textContent="0"; document.getElementById("donutSub").textContent="sin hallazgos"; document.getElementById("sumPct").textContent=""; }
+    else { donut.classList.remove("empty"); var d=Math.round(cc.cerrado/t*100), p=Math.round(cc.proceso/t*100); donut.style.setProperty("--d",d); donut.style.setProperty("--p",p); document.getElementById("donutN").textContent=cc.cerrado; document.getElementById("donutSub").textContent="de "+t+" cerrados"; document.getElementById("sumPct").textContent=d+"% cerrado"; }
+    document.getElementById("leg").innerHTML='<div class="li"><span class="dot dcl"></span>Cerrados<span class="cnt num">'+cc.cerrado+'</span></div><div class="li"><span class="dot dpr"></span>En proceso<span class="cnt num">'+cc.proceso+'</span></div><div class="li"><span class="dot dab"></span>Abiertos<span class="cnt num">'+cc.abierto+'</span></div>'
+      +(function(){ var ec=evidCount(ev); return '<div class="li" style="color:var(--muted);font-size:12px">Evidencias adjuntas<span class="cnt num">'+ec.n+'</span></div>'; })();
+    var hasPend=counts(ev)[""]>0;
+    document.getElementById("mtbody").innerHTML=MODS.map(function(m){
+      var mp=PTS.filter(function(p){return p.m===m.id;}); var mc=tallyOf(mp,ev);
+      var mpl=mp.filter(function(p){return isPlan((ev.resp[p.id]||{}).r);}); var mcc=estCounts(ev,mpl);
+      var done=mpl.length?Math.round(mcc.cerrado/mpl.length*100):100; var ap=areaPct(ev,m);
+      return '<tr><td class="mnm"><i>'+m.n+'</i>'+esc(m.name)+'</td>'+(ev.oficial?'<td class="r mpct" style="color:'+(ap==null?"var(--muted)":bandColor(ap))+'">'+(ap==null?"—":fmt(ap)+'%')+'</td>':'<td class="r mpct">'+((mc.C+mc.P+mc.NC)?fmt(pctOf(mc))+'%':'—')+'</td>')+'<td class="r badge-c num">'+mc.C+'</td><td class="r badge-p num">'+mc.P+'</td><td class="r badge-nc num">'+mc.NC+'</td><td class="r num" style="color:var(--muted)">'+mc.NA+'</td>'+(hasPend?'<td class="r num" style="color:var(--pend)">'+mc[""]+'</td>':'')+'<td><span class="miniprog"><span class="cbar"><span style="width:'+done+'%"></span></span><span class="num" style="font-size:11.5px;color:var(--muted)">'+mcc.cerrado+'/'+mpl.length+'</span></span></td></tr>';
+    }).join("");
+  }
+
+  function filteredPts(){
+    var ev=activeEv(), q=ui.q.trim().toLowerCase();
+    return PTS.filter(function(p){
+      if(ui.mod!=="ALL" && p.m!==ui.mod) return false;
+      if(ui.mode==="resultados" && ui.res!=="ALL"){ if(((ev.resp[p.id]||{}).r||"")!==ui.res) return false; }
+      if(q){ var s=ev.seg[p.id]||{}; var hay=(p.req+" "+(p.s||"")+" "+((ev.resp[p.id]||{}).obs||"")+" "+mod(p.m).name+" "+(s.resp||"")+" "+(s.acc||"")).toLowerCase(); if(hay.indexOf(q)<0) return false; }
+      return true;
+    });
+  }
+
+  function planCard(ev,p){
+    var rp=ev.resp[p.id]||{}; var s=ev.seg[p.id]||{resp:"",fecha:"",acc:"",est:"abierto"};
+    var obs=rp.obs?'<div class="obs"><b>'+(ev.oficial?"Observación / recomendación CESVI":"Observación")+'</b>'+esc(rp.obs)+'</div>':"";
+    var estBtns=EST.map(function(v){ return '<button data-p="'+p.id+'" data-k="est" data-v="'+v+'" class="'+((s.est||"abierto")===v?"on":"")+'"><span class="sw"></span>'+EST_LABEL[v]+'</button>'; }).join("");
+    var pill=rp.r==="P"?'<span class="pill p"><span class="sw"></span>Parcial</span>':'<span class="pill nc"><span class="sw"></span>No Cumple</span>';
+    return '<div class="fc" data-est="'+(s.est||"abierto")+'" data-fc="'+p.id+'"><div class="fc-in"><div class="fc-top">'+pill+'<span class="pill na">'+esc(p.s||"")+'</span><span class="fid">'+p.id+'</span></div>'
+      +'<p class="req">'+esc(p.req)+'</p>'+obs
+      +'<div class="fu"><div class="fld"><label for="r_'+p.id+'">Responsable</label><input id="r_'+p.id+'" type="text" data-p="'+p.id+'" data-k="resp" value="'+esc(s.resp||"")+'" placeholder="Nombre / cargo"></div>'
+      +'<div class="fld"><label for="f_'+p.id+'">Fecha compromiso</label><input id="f_'+p.id+'" type="date" data-p="'+p.id+'" data-k="fecha" value="'+esc(s.fecha||"")+'"></div>'
+      +'<div class="fld est-fld"><label>Estado</label><div class="est">'+estBtns+'</div></div>'
+      +'<div class="fld acc"><label for="a_'+p.id+'">Acción correctiva</label><textarea id="a_'+p.id+'" data-p="'+p.id+'" data-k="acc" placeholder="Qué se va a hacer, compra o capacitación requerida, evidencia de cierre…">'+esc(s.acc||"")+'</textarea></div></div>'+evidHTML(ev,p.id)+'</div></div>';
+  }
+  function compactRow(ev,p){
+    var rp=ev.resp[p.id]||{}; var rr=rp.r||""; var cls=rr==="C"?"c":rr==="NA"?"na":"pend";
+    return '<div class="row '+(rr==="NA"?"na":rr===""?"pend":"")+'"><span class="pill '+cls+'"><span class="sw"></span>'+ST_LABEL[rr]+'</span><div class="rt"><span class="rid">'+p.id+'</span>'+esc(p.req)+(rp.obs?'<small>'+esc(rp.obs)+'</small>':'')+evidHTML(ev,p.id)+'</div></div>';
+  }
+  function qRow(ev,p){
+    var rp=ev.resp[p.id]||{r:"",obs:""};
+    var seg=RES.map(function(d){ return '<button data-p="'+p.id+'" data-r="'+d[0]+'" class="'+(rp.r===d[0]?"on":"")+'"><span class="sw"></span>'+d[1]+'</button>'; }).join("");
+    return '<div class="qrow" data-qp="'+p.id+'" data-r="'+rp.r+'"><div class="qtxt"><span class="rid">'+p.id+'</span>'+esc(p.req)+'</div><div class="seg">'+seg+'</div>'
+      +'<input class="qobs" id="o_'+p.id+'" data-p="'+p.id+'" data-k="obs" value="'+esc(rp.obs||"")+'" placeholder="Observación (opcional)" aria-label="Observación '+p.id+'">'+evidHTML(ev,p.id)+'</div>';
+  }
+
+  // evidencias: fotos y PDF se guardan tal cual; Word, Excel y otros se guardan codificados en base64 (text/plain)
+  var EXT={jpg:["img","image/jpeg"],jpeg:["img","image/jpeg"],png:["img","image/png"],gif:["img","image/gif"],webp:["img","image/webp"],pdf:["pdf","application/pdf"],
+    docx:["doc"],doc:["doc"],xlsx:["xls"],xlsm:["xls"],xls:["xls"],csv:["xls"]};
+  var KIND_LABEL={img:"FOTO",pdf:"PDF",doc:"WORD",xls:"EXCEL",file:"ARCH"};
+  var MAX_RAW=20*1024*1024, MAX_B64=15*1024*1024;
+  var LIBS={xls:"https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js",doc:"https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"};
+  function extOf(n){ var m=/\.([a-z0-9]+)$/i.exec(n||""); return m?m[1].toLowerCase():""; }
+  function fmtSize(b){ return b>=1048576?fmt(b/1048576)+" MB":Math.max(1,Math.round(b/1024))+" KB"; }
+  function evList(ev,pid){ return (ev.evid&&ev.evid[pid])||[]; }
+  function evidCount(ev){ var n=0,r=0; Object.keys(ev.evid||{}).forEach(function(k){ var l=ev.evid[k].length; n+=l; if(l) r++; }); return {n:n,r:r}; }
+  function evidHTML(ev,pid){
+    var l=evList(ev,pid), s=ev.seg[pid]||{};
+    var chips=l.map(function(f,i){ var key=pid+"|"+i;
+      return '<span class="evf"><button class="evf-open" data-evopen="'+key+'" title="Ver '+esc(f.n)+'">'+(f.k==="img"?'<img class="th" alt="" loading="lazy" src="/_blob/'+esc(f.id)+'" onerror="this.remove()">':'')+'<span class="ic k-'+f.k+'">'+KIND_LABEL[f.k]+'</span><span class="nm">'+esc(f.n)+'</span><small>'+fmtSize(f.s)+'</small></button><button class="ev-del" data-evdel="'+key+'" aria-label="Quitar '+esc(f.n)+'">×</button></span>'; }).join("");
+    var none=l.length?"":(isPlan((ev.resp[pid]||{}).r)&&s.est==="cerrado"?'<span class="evd-none warn">Cerrado sin evidencia de cierre</span>':'<span class="evd-none">Sin evidencias</span>');
+    return '<div class="evd" data-evd="'+pid+'"><span class="evd-lab">Evidencias</span>'+chips+none+'<button class="ev-add" data-evadd="'+pid+'"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 11.5l-8.6 8.6a5.5 5.5 0 01-7.8-7.8l8.6-8.6a3.7 3.7 0 015.2 5.2l-8.6 8.6a1.8 1.8 0 01-2.6-2.6l7.9-7.9"/></svg>Adjuntar</button></div>';
+  }
+  function refreshEvd(pid,extra){ var host=document.querySelector('[data-evd="'+pid+'"]'); if(!host) return; var tmp=document.createElement("div"); tmp.innerHTML=evidHTML(activeEv(),pid); var n=tmp.firstChild; if(extra){ var sp=document.createElement("span"); sp.className="ev-up"; sp.textContent=extra; n.insertBefore(sp,n.querySelector(".ev-add")); } host.replaceWith(n); }
+  function getCap(name){ return (window.claude&&window.claude.use)?window.claude.use(name).catch(function(){return null;}):Promise.resolve(null); }
+  function toB64(buf){ var u=new Uint8Array(buf), s="", CH=0x8000; for(var i=0;i<u.length;i+=CH){ s+=String.fromCharCode.apply(null,u.subarray(i,i+CH)); } return btoa(s); }
+  function fromB64(t){ var s=atob(t.replace(/\s+/g,"")), u=new Uint8Array(s.length); for(var i=0;i<s.length;i++) u[i]=s.charCodeAt(i); return u; }
+  function fetchBytes(f){ return fetch("/_blob/"+f.id).then(function(r){ if(!r.ok) throw new Error("http "+r.status); return f.b64?r.text().then(fromB64):r.arrayBuffer().then(function(b){return new Uint8Array(b);}); }); }
+  var libP={};
+  function loadLib(k){ if(!libP[k]) libP[k]=new Promise(function(res,rej){ var s=document.createElement("script"); s.src=LIBS[k]; s.onload=res; s.onerror=function(){ delete libP[k]; rej(new Error("lib")); }; document.head.appendChild(s); }); return libP[k]; }
+  var upErr={too_large:"supera el tamaño permitido",unsupported_type:"tipo de archivo no admitido",quota_or_state:"se agotó el espacio de almacenamiento del tablero",rate_limited:"demasiadas subidas seguidas; espera un momento",upstream_auth:"la sesión expiró; recarga la página",not_granted:"no tienes permiso para adjuntar",capability_disabled:"los adjuntos no están disponibles en esta vista",capability_removed:"los adjuntos no están disponibles en esta vista"};
+  var pickTarget=null, picker=document.createElement("input"); picker.type="file"; picker.multiple=true; picker.hidden=true;
+  picker.accept=".jpg,.jpeg,.png,.gif,.webp,.pdf,.doc,.docx,.xls,.xlsx,.xlsm,.csv,image/*,application/pdf";
+  picker.addEventListener("change",function(){ var files=[].slice.call(picker.files||[]); picker.value=""; if(pickTarget&&files.length) uploadFiles(pickTarget,files); });
+  document.body.appendChild(picker);
+  function startPick(pid){
+    if(readOnly){ toast("Vista de solo lectura: no puedes adjuntar."); return; }
+    pickTarget=pid; picker.click();
+  }
+  function uploadFiles(pid,files){
+    harvest(); var ev=activeEv(); ev.evid[pid]=ev.evid[pid]||[];
+    getCap("assets").then(function(a){
+      if(!a){ toast("Los adjuntos solo funcionan en el artifact publicado, para quien tiene permiso de edición."); return; }
+      var added=0, errs=[];
+      var seq=files.reduce(function(p,f){ return p.then(function(){
+        var ext=extOf(f.name), m=EXT[ext], k=m?m[0]:"file";
+        if(ext==="heic"||ext==="heif"){ errs.push(f.name+": convierte la foto a JPG antes de subirla"); return; }
+        var b64=(k!=="img"&&k!=="pdf");
+        if(f.size>(b64?MAX_B64:MAX_RAW)){ errs.push(f.name+": máximo "+(b64?"15":"20")+" MB"); return; }
+        if(ui.active===ev.id) refreshEvd(pid,"Subiendo "+f.name+"…");
+        var body=b64?f.arrayBuffer().then(function(buf){ return new Blob([toB64(buf)],{type:"text/plain"}); }):Promise.resolve(f);
+        return body.then(function(blob){ return a.upload(blob,{type:b64?"text/plain":m[1]}); }).then(function(res){
+          ev.evid[pid].push({id:res.id,n:f.name,k:k,s:f.size,b64:b64,at:todayISO()}); added++;
+        }).catch(function(err){ errs.push(f.name+": "+(upErr[err&&err.code]||"no se pudo subir")); });
+      }); },Promise.resolve());
+      seq.then(function(){
+        if(ui.active===ev.id){ harvest(); renderList(); renderSummaryDynamic(); }
+        if(added){ markDirty(); doSave(false); }
+        var okMsg=added?(added===1?"1 evidencia adjuntada y guardada.":added+" evidencias adjuntadas y guardadas."):"";
+        toast([okMsg].concat(errs).filter(Boolean).join(" · "));
+      });
+    });
+  }
+  function isReferenced(id){ var all=state.evaluaciones.concat(state.papelera||[]); return all.some(function(e){ return Object.keys(e.evid||{}).some(function(k){ return e.evid[k].some(function(f){return f.id===id;}); }); }); }
+  function releaseAssets(ids){ var left=ids.filter(function(id){ return !isReferenced(id); }); if(!left.length) return; getCap("assets").then(function(a){ if(!a) return; left.forEach(function(id){ a.delete(id).catch(function(){}); }); }); }
+  function removeEvid(key,btn){
+    if(readOnly) return;
+    if(!btn.classList.contains("armed")){ btn.classList.add("armed"); btn.textContent="¿Quitar?"; setTimeout(function(){ if(btn.isConnected){ btn.classList.remove("armed"); btn.textContent="×"; } },3000); return; }
+    var parts=key.split("|"), pid=parts[0], i=+parts[1]; harvest(); var ev=activeEv(), l=evList(ev,pid), f=l[i]; if(!f) return;
+    l.splice(i,1); renderList(); renderSummaryDynamic(); releaseAssets([f.id]); markDirty(); doSave(false); toast("Evidencia quitada.");
+  }
+  function saveFile(name,data){
+    return getCap("downloads").then(function(d){ if(!d){ toast("La descarga solo funciona en el artifact publicado."); return "none"; }
+      return d.save({filename:name,data:data}).then(function(){ return "ok"; }).catch(function(err){ var c=err&&err.code; if(c==="declined") return "declined"; if(c==="rejected_extension"||c==="extension_not_enabled") return "ext"; toast("No se pudo descargar en esta vista."); return "err"; }); });
+  }
+  function downloadEvid(f){
+    toast("Preparando "+f.n+"…");
+    fetchBytes(f).then(function(bytes){ return saveFile(f.n,bytes).then(function(r){
+      if(r!=="ext") return;
+      if(f.k==="xls") return loadLib("xls").then(function(){ var wb=window.XLSX.read(bytes,{type:"array"}); var csv=window.XLSX.utils.sheet_to_csv(wb.Sheets[wb.SheetNames[0]],{FS:";"}); var base=f.n.replace(/\.[^.]+$/,""); return saveFile(base+".csv","﻿"+csv).then(function(r2){ if(r2==="ext") return saveFile(base+".txt","﻿"+csv); }).then(function(){ toast("Este visor no descarga Excel; se entregó la primera hoja en CSV."); }); });
+      if(f.k==="doc"&&extOf(f.n)==="docx") return loadLib("doc").then(function(){ return window.mammoth.extractRawText({arrayBuffer:bytes.buffer}); }).then(function(r3){ return saveFile(f.n.replace(/\.[^.]+$/,"")+".txt",r3.value); }).then(function(){ toast("Este visor no descarga Word; se entregó el texto del documento."); });
+      toast("Este tipo de archivo no se puede descargar desde el visor; usa “Ver”.");
+    }); }).catch(function(){ toast("No se pudo leer la evidencia. Puede haber sido eliminada."); });
+  }
+  function openViewer(key){
+    var parts=key.split("|"), pid=parts[0], ev=activeEv(), f=evList(ev,pid)[+parts[1]]; if(!f) return;
+    var p=PTS.find(function(x){return x.id===pid;});
+    var ov=document.createElement("div"); ov.className="overlay"; ov.id="vwov";
+    ov.innerHTML='<div class="ovcard wide" role="dialog" aria-label="Evidencia"><div class="ovhead"><div style="min-width:0"><h3 style="font-size:15px;overflow-wrap:anywhere">'+esc(f.n)+'</h3><div class="vwmeta">'+pid+' · '+esc(p?p.req.slice(0,90):"")+(p&&p.req.length>90?"…":"")+' · '+fmtSize(f.s)+' · '+esc(f.at||"")+'</div></div><div class="papbtns">'+(f.k==="pdf"?'<a class="btn sm" href="/_blob/'+esc(f.id)+'" target="_blank" rel="noopener">Abrir</a>':'')+'<button class="btn sm" id="vwDl">Descargar</button><button class="btn sm" id="vwClose">Cerrar</button></div></div><div id="vwTabs" class="vwtabs"></div><div class="vwbody" id="vwBody"><div class="vwmeta">Cargando…</div></div></div>';
+    document.body.appendChild(ov);
+    var close=function(){ ov.remove(); document.removeEventListener("keydown",onKey); }; var onKey=function(e){ if(e.key==="Escape") close(); };
+    document.addEventListener("keydown",onKey);
+    ov.addEventListener("click",function(e){ if(e.target===ov) close(); });
+    document.getElementById("vwClose").addEventListener("click",close);
+    document.getElementById("vwDl").addEventListener("click",function(){ downloadEvid(f); });
+    var body=document.getElementById("vwBody");
+    var fail=function(msg){ body.innerHTML='<div class="vwmeta">'+esc(msg)+'</div>'; };
+    if(f.k==="img"){ var im=new Image(); im.alt=f.n; im.onload=function(){ body.innerHTML=""; body.appendChild(im); }; im.onerror=function(){ im.onerror=function(){ fail("No se pudo cargar la foto. Puede haber sido eliminada."); }; fetchBytes(f).then(function(b){ im.src=URL.createObjectURL(new Blob([b])); }).catch(function(){ fail("No se pudo cargar la foto. Puede haber sido eliminada."); }); }; im.src="/_blob/"+f.id; return; }
+    if(f.k==="pdf"){ body.innerHTML='<div class="vwmeta">El PDF se abre en una pestaña nueva con “Abrir”, o descárgalo con “Descargar”.</div>'; return; }
+    if(f.k==="doc"){
+      if(extOf(f.n)!=="docx"){ fail("La vista previa solo está disponible para .docx. Usa “Descargar”."); return; }
+      Promise.all([fetchBytes(f),loadLib("doc")]).then(function(r){ return window.mammoth.convertToHtml({arrayBuffer:r[0].buffer}); }).then(function(res){
+        body.className="vwbody doc"; body.innerHTML=res.value||'<p>(Documento sin texto)</p>';
+        [].forEach.call(body.querySelectorAll("a"),function(a){ if(!/^https?:/i.test(a.getAttribute("href")||"")) a.removeAttribute("href"); else { a.target="_blank"; a.rel="noopener"; } });
+      }).catch(function(){ fail("No se pudo mostrar el documento. Usa “Descargar”."); });
+      return;
+    }
+    if(f.k==="xls"){
+      Promise.all([fetchBytes(f),loadLib("xls")]).then(function(r){
+        var X=window.XLSX, wb=extOf(f.n)==="csv"?X.read(new TextDecoder().decode(r[0]),{type:"string"}):X.read(r[0],{type:"array"});
+        var tabs=document.getElementById("vwTabs");
+        var show=function(name){ var ws=wb.Sheets[name]; var rg=X.utils.decode_range(ws["!ref"]||"A1"); var cut=rg.e.r>499; if(cut){ rg.e.r=499; ws=Object.assign({},ws,{"!ref":X.utils.encode_range(rg)}); }
+          body.className="vwbody sheet"; body.innerHTML=X.utils.sheet_to_html(ws,{header:"",footer:""})+(cut?'<div class="vwmeta" style="margin-top:8px">Se muestran las primeras 500 filas.</div>':'');
+          [].forEach.call(tabs.children,function(b){ b.classList.toggle("on",b.textContent===name); }); };
+        if(wb.SheetNames.length>1){ tabs.innerHTML=wb.SheetNames.map(function(n){ return '<button class="chip">'+esc(n)+'</button>'; }).join(""); [].forEach.call(tabs.children,function(b,i){ b.addEventListener("click",function(){ show(wb.SheetNames[i]); }); }); }
+        show(wb.SheetNames[0]);
+      }).catch(function(){ fail("No se pudo mostrar la hoja de cálculo. Usa “Descargar”."); });
+      return;
+    }
+    fail("No hay vista previa para este tipo de archivo. Usa “Descargar”.");
+  }
+
+  function renderList(){
+    var host=document.getElementById("list"); if(!host) return; var ev=activeEv(); var list=filteredPts();
+    if(!list.length){ host.innerHTML='<div class="empty">No hay requisitos que coincidan con el filtro.</div>'; return; }
+    var html="";
+    MODS.forEach(function(m){
+      var fl=list.filter(function(p){return p.m===m.id;}); if(!fl.length) return;
+      var mp=PTS.filter(function(p){return p.m===m.id;}); var mc=tallyOf(mp,ev);
+      var col=ui.collapsed[m.id]?" col":"";
+      var inner="", lastsec=null;
+      fl.forEach(function(p){
+        if(p.s && p.s!==lastsec){ inner+='<div class="secsub">'+esc(p.s)+'</div>'; lastsec=p.s; }
+        if(ui.mode==="cuestionario") inner+=qRow(ev,p);
+        else inner+= isPlan((ev.resp[p.id]||{}).r)?planCard(ev,p):compactRow(ev,p);
+      });
+      var ap=areaPct(ev,m);
+      var head=ap!=null?{v:fmt(ap)+'%',l:'nota CESVI · '+m.area.toLowerCase()}:{v:((mc.C+mc.P+mc.NC)?fmt(pctOf(mc))+'%':'—'),l:'cumplimiento'};
+      var sub=fl.length+' de '+mp.length+' requisitos · '+mc.C+' cumplen · '+mc.NC+' no cumplen'+(mc.P?' · '+mc.P+' parcial':'')+(mc.NA?' · '+mc.NA+' N/A':'')+(mc[""]?' · '+mc[""]+' pendientes':'');
+      var ne=mp.reduce(function(a,p){ return a+evList(ev,p.id).length; },0); if(ne) sub+=' · '+ne+' evidencia'+(ne>1?'s':'');
+      html+='<section class="modgroup'+col+'" data-mg="'+m.id+'"><div class="mghead" data-mghead="'+m.id+'" role="button" tabindex="0" aria-expanded="'+(!ui.collapsed[m.id])+'"><div class="idx">'+m.n+'</div><div class="t"><b>'+esc(m.name)+'</b><span>'+sub+'</span></div><div><div class="mgpct num">'+head.v+'</div><div class="mgsub">'+esc(head.l)+'</div></div>'+svgCaret()+'</div><div class="cards">'+inner+'</div></section>';
+    });
+    host.innerHTML=html;
+    Array.prototype.forEach.call(host.querySelectorAll("[data-mghead]"),function(h){
+      var tog=function(){ var id=h.getAttribute("data-mghead"); ui.collapsed[id]=!ui.collapsed[id]; h.parentNode.classList.toggle("col"); h.setAttribute("aria-expanded",String(!ui.collapsed[id])); persistUI(); };
+      h.addEventListener("click",tog); h.addEventListener("keydown",function(e){ if(e.key==="Enter"||e.key===" "){ e.preventDefault(); tog(); } });
+    });
+  }
+
+  function renderCuestionario(){
+    var ev=activeEv();
+    var body=document.getElementById("body");
+    var lock=ev.bloqueada?'<div class="locknote">Esta es la evaluación oficial de CESVI (Visita de Seguimiento 2 · 27 oct 2026). El cuestionario es de solo lectura; el plan de acción se gestiona en Resultados. Para autoevaluarte antes de la próxima visita usa “+ Nueva” o “Duplicar”.</div>':'';
+    body.innerHTML='<div class="card"><h3>Datos de la evaluación</h3>'
+      +'<div class="metaedit">'
+      +'<div class="fld"><label for="mNombre">Nombre</label><input id="mNombre" value="'+esc(ev.nombre||"")+'"></div>'
+      +'<div class="fld"><label for="mSitio">Taller</label><input id="mSitio" value="'+esc(ev.sitio||"")+'"></div>'
+      +'<div class="fld"><label for="mEval">Evaluador(es)</label><input id="mEval" value="'+esc(ev.evaluador||"")+'"></div>'
+      +'<div class="fld"><label for="mFecha">Fecha</label><input id="mFecha" type="date" value="'+esc(ev.fecha||"")+'"></div>'
+      +'</div>'
+      +'<div class="progwrap"><div class="progbar"><span id="pbar"></span></div><div class="progtxt" id="progtxt"></div></div>'
+      +lock+'</div>'
+      +toolbarHTML(false)+'<div id="list"></div>';
+    if(!ev.bloqueada){
+      ["Nombre|nombre","Sitio|sitio","Eval|evaluador","Fecha|fecha"].forEach(function(pair){ var parts=pair.split("|"); var el=document.getElementById("m"+parts[0]); el.addEventListener("input",function(){ ev[parts[1]]=el.value; markDirty(); }); el.addEventListener("change",function(){ ev[parts[1]]=el.value; updateTop(); refreshEvSelLabel(); markDirty(); }); });
+    } else { ["mNombre","mSitio","mEval","mFecha"].forEach(function(id){ document.getElementById(id).setAttribute("readonly","");}); }
+    wireToolbar(false); renderList(); updateProgress();
+  }
+  function refreshEvSelLabel(){ var sel=document.getElementById("evSel"); if(!sel) return; var o=sel.querySelector('option[value="'+ui.active+'"]'); var ev=activeEv(); if(o) o.textContent=ev.nombre+" · "+(ev.fecha||""); }
+  function updateProgress(){ var ev=activeEv(), c=counts(ev), done=PTS.length-c[""]; var pb=document.getElementById("pbar"); if(pb) pb.style.width=Math.round(done/PTS.length*100)+"%";
+    var pt=document.getElementById("progtxt"); if(pt) pt.innerHTML='<b class="num">'+done+'</b> / '+PTS.length+' evaluados · <b class="num">'+c.C+'</b> cumple · <b class="num" style="color:var(--part)">'+c.P+'</b> parcial · <b class="num" style="color:var(--open)">'+c.NC+'</b> no cumple · <b class="num">'+c.NA+'</b> N/A · <b class="num">'+fmt(compliance(ev))+'%</b>'; }
+
+  root.addEventListener("input",function(e){ var el=e.target, pid=el.getAttribute&&el.getAttribute("data-p"); if(!pid) return; var k=el.getAttribute("data-k"); if(!k||k==="est") return; var ev=activeEv();
+    if(k==="obs"){ ev.resp[pid].obs=el.value; } else { ev.seg[pid]=ev.seg[pid]||{resp:"",fecha:"",acc:"",est:"abierto"}; ev.seg[pid][k]=el.value; } markDirty(); });
+  root.addEventListener("click",function(e){
+    var t=e.target.closest?e.target:null; if(!t) return;
+    var vo=t.closest("[data-evopen]"); if(vo){ openViewer(vo.getAttribute("data-evopen")); return; }
+    if(document.body.classList.contains("readonly")) return;
+    var va=t.closest("[data-evadd]"); if(va){ startPick(va.getAttribute("data-evadd")); return; }
+    var vd=t.closest("[data-evdel]"); if(vd){ removeEvid(vd.getAttribute("data-evdel"),vd); return; }
+    var eb=e.target.closest?e.target.closest("button[data-k='est']"):null;
+    if(eb){ var fid=eb.getAttribute("data-p"), v=eb.getAttribute("data-v"); var ev=activeEv(); ev.seg[fid]=ev.seg[fid]||{resp:"",fecha:"",acc:"",est:"abierto"}; ev.seg[fid].est=v;
+      var card=document.querySelector('.fc[data-fc="'+fid+'"]'); if(card){ card.setAttribute("data-est",v); Array.prototype.forEach.call(card.querySelectorAll("button[data-k='est']"),function(x){x.classList.toggle("on",x.getAttribute("data-v")===v);}); }
+      refreshEvd(fid); renderSummaryDynamic(); markDirty(); return; }
+    var sb=e.target.closest?e.target.closest(".seg button[data-r]"):null;
+    if(sb){ if(activeEv().bloqueada) return; var pid=sb.getAttribute("data-p"), r=sb.getAttribute("data-r"); var ev2=activeEv();
+      if(ev2.resp[pid].r===r) r="";
+      ev2.resp[pid].r=r;
+      var qrow=document.querySelector('.qrow[data-qp="'+pid+'"]'); if(qrow){ qrow.setAttribute("data-r",r); Array.prototype.forEach.call(qrow.querySelectorAll(".seg button"),function(x){x.classList.toggle("on",x.getAttribute("data-r")===r);}); }
+      updateProgress(); updateTop(); markDirty(); return; }
+  });
+
+  function newId(){ return "EV"+Date.now(); }
+  function nuevaEval(){ if(document.body.classList.contains("readonly")) return; harvest();
+    var n=state.evaluaciones.filter(function(e){return !e.oficial;}).length+1;
+    var ev={id:newId(),nombre:"Autoevaluación "+n,sitio:"Motor K S.A.S. · Pasto · ID CESVI 0606",evaluador:"",fecha:todayISO(),bloqueada:false,resp:{},seg:{}};
+    ensureEv(ev); state.evaluaciones.push(ev); ui.active=ev.id; ui.mode="cuestionario"; ui.res="ALL"; persistUI(); renderShell(); renderBody(); toast("Autoevaluación creada. Completa el cuestionario y guarda."); markDirty(); }
+  function dupEval(){ if(document.body.classList.contains("readonly")) return; harvest(); var src=activeEv();
+    var ev={id:newId(),nombre:src.nombre.replace(/\s*\(copia\)$/,"")+" (copia)",sitio:src.sitio,evaluador:src.evaluador,fecha:todayISO(),bloqueada:false,resp:JSON.parse(JSON.stringify(src.resp)),seg:JSON.parse(JSON.stringify(src.seg||{})),evid:JSON.parse(JSON.stringify(src.evid||{}))};
+    state.evaluaciones.push(ev); ui.active=ev.id; ui.mode="cuestionario"; persistUI(); renderShell(); renderBody(); toast("Evaluación duplicada. Ya puedes editar el cuestionario."); markDirty(); }
+  var delArmed=false, delTimer=null;
+  function delEval(){ if(document.body.classList.contains("readonly")) return; var ev=activeEv();
+    if(ev.oficial){ toast("La evaluación oficial de CESVI no se puede eliminar."); return; }
+    if(state.evaluaciones.length<=1){ toast("Debe existir al menos una evaluación."); return; }
+    var btn=document.getElementById("btnDel");
+    if(!delArmed){ delArmed=true; btn.classList.add("armed"); btn.textContent="Confirmar eliminar"; delTimer=setTimeout(function(){ delArmed=false; btn.classList.remove("armed"); btn.textContent="Eliminar"; },3500); return; }
+    clearTimeout(delTimer); delArmed=false; harvest();
+    ev._deletedAt=todayISO(); state.papelera.unshift(ev); if(state.papelera.length>30) state.papelera=state.papelera.slice(0,30);
+    state.evaluaciones=state.evaluaciones.filter(function(e){return e.id!==ev.id;}); ui.active=state.evaluaciones[0].id; persistUI(); renderShell(); renderBody(); toast("Evaluación movida a la papelera."); doSave(true); }
+  function openPapelera(){
+    var pap=state.papelera||[];
+    var rows=pap.length?pap.map(function(e,i){ var c=tallyOf(PTS,e); var done=PTS.length-c[""];
+      return '<div class="paprow"><div class="paptxt"><b>'+esc(e.nombre)+'</b><span>'+esc(e.fecha||"")+' · '+done+'/'+PTS.length+' evaluados · '+c.NC+' no cumple'+(e._deletedAt?' · eliminada '+esc(e._deletedAt):'')+'</span></div>'
+        +'<div class="papbtns"><button class="btn sm primary" data-restore="'+i+'">Recuperar</button><button class="btn sm danger" data-purge="'+i+'">Borrar def.</button></div></div>'; }).join("")
+      : '<div class="empty" style="padding:30px">La papelera está vacía.</div>';
+    var ov=document.createElement("div"); ov.className="overlay"; ov.id="papov";
+    ov.innerHTML='<div class="ovcard"><div class="ovhead"><h3 style="font-size:15px">Papelera de evaluaciones</h3><button class="btn sm" id="papClose">Cerrar</button></div>'
+      +'<div class="ovnote">Las evaluaciones eliminadas quedan aquí y se pueden recuperar. La evaluación oficial nunca se elimina.</div>'
+      +'<div class="paplist">'+rows+'</div></div>';
+    document.body.appendChild(ov);
+    ov.addEventListener("click",function(e){ if(e.target===ov) ov.remove(); });
+    document.getElementById("papClose").addEventListener("click",function(){ ov.remove(); });
+    Array.prototype.forEach.call(ov.querySelectorAll("[data-restore]"),function(b){ b.addEventListener("click",function(){ restoreEval(parseInt(b.getAttribute("data-restore"),10)); ov.remove(); }); });
+    Array.prototype.forEach.call(ov.querySelectorAll("[data-purge]"),function(b){ b.addEventListener("click",function(){ if(b.textContent!=="¿Seguro?"){ b.textContent="¿Seguro?"; b.classList.add("armed"); setTimeout(function(){ b.textContent="Borrar def."; b.classList.remove("armed"); },3000); return; } purgeEval(parseInt(b.getAttribute("data-purge"),10)); ov.remove(); openPapelera(); }); });
+  }
+  function restoreEval(i){ var e=(state.papelera||[])[i]; if(!e) return; delete e._deletedAt;
+    if(state.evaluaciones.some(function(x){return x.id===e.id;})) e.id=newId();
+    ensureEv(e); e.bloqueada=false; delete e.oficial;
+    state.papelera.splice(i,1); state.evaluaciones.push(e); ui.active=e.id; ui.mode="cuestionario"; persistUI(); renderShell(); renderBody(); toast("Evaluación recuperada."); doSave(true); }
+  function purgeEval(i){ var e=state.papelera[i]; if(!e) return; state.papelera.splice(i,1);
+    var ids=[]; Object.keys(e.evid||{}).forEach(function(k){ e.evid[k].forEach(function(f){ ids.push(f.id); }); }); releaseAssets(ids); updatePapBadge(); toast("Evaluación borrada definitivamente."); doSave(true); }
+  function todayISO(){ var d=new Date(); return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0"); }
+
+  var readOnly=false, dirty=false, retryT=null;
+  function setChip(cls,txt){ var c=document.getElementById("saveChip"); if(!c)return; c.className="savechip "+cls; c.querySelector(".t").textContent=txt; }
+  function stashWork(){ try{ sessionStorage.setItem("work:"+DOC_ID, JSON.stringify({evaluaciones:state.evaluaciones,papelera:state.papelera,active:ui.active,t:Date.now()})); }catch(e){} }
+  function markDirty(){ dirty=true; setChip("dirty","Cambios sin guardar"); refreshSaveBtn(); stashWork(); }
+  function markSaved(){ dirty=false; setChip("saved","Guardado"); refreshSaveBtn(); try{ sessionStorage.removeItem("work:"+DOC_ID); }catch(e){} }
+  function persistUI(){ try{ sessionStorage.setItem("ui:"+DOC_ID, JSON.stringify({ui:ui,scrollY:window.scrollY})); }catch(e){} }
+  function harvest(){ var ev=activeEv(); if(!ev) return; Array.prototype.forEach.call(root.querySelectorAll("[data-p][data-k]"),function(el){ var pid=el.getAttribute("data-p"),k=el.getAttribute("data-k"); if(k==="est"||el.value==null)return; if(k==="obs"){ if(ev.resp[pid]) ev.resp[pid].obs=el.value; } else { ev.seg[pid]=ev.seg[pid]||{resp:"",fecha:"",acc:"",est:"abierto"}; ev.seg[pid][k]=el.value; } }); }
+
+  var RESET=":root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px system-ui,-apple-system,sans-serif}img{max-width:100%}[hidden]{display:none!important}";
+  function renderDocument(s){
+    var data=JSON.stringify(s).replace(/</g,"\\u003c"); var src=app.toString();
+    return '<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>'+RESET+'</style></head><body>'
+      +'<title>Plan CESVI Colisión</title>\n<meta name="claude:viewport-fit-sides" content="cover">\n<style>html,body{margin:0}body{background:#ecedeb}@media (prefers-color-scheme:dark){body{background:#0d1013}}</style>\n'
+      +'<div id="root"></div>\n<scr'+'ipt id="state" type="application/json">'+data+'</scr'+'ipt>\n<scr'+'ipt>('+src+')();</scr'+'ipt>\n</body></html>';
+  }
+  function doSave(explicit){
+    if(readOnly){ toast("Vista de solo lectura: no puedes guardar."); return; } harvest(); persistUI(); stashWork(); setChip("saving","Guardando…");
+    (window.claude&&window.claude.use?window.claude.use("artifact"):Promise.resolve(null)).then(function(a){
+      if(!a){ setChip("err","No disponible aquí"); if(explicit) toast("El guardado solo funciona en el artifact publicado."); return; }
+      return a.publish(renderDocument(state)).then(function(){ markSaved(); }).catch(function(err){ var code=err&&err.code;
+        if(code==="conflict"){ setChip("saving","Actualizando…"); }
+        else if(code==="not_writer"||code==="not_granted"||code==="consent_required"||code==="not_declared"||code==="capability_disabled"||code==="capability_removed"){ setReadOnly(); }
+        else if(code==="rate_limited"){ clearTimeout(retryT); retryT=setTimeout(function(){doSave(false);},2600); }
+        else { setChip("err","Error al guardar"); toast("No se pudo guardar. Tus cambios siguen en esta pestaña; intenta de nuevo."); }
+      });
+    }).catch(function(){ setChip("err","Error al guardar"); });
+  }
+  function setReadOnly(){ readOnly=true; document.body.classList.add("readonly"); setChip("","Solo lectura"); }
+
+  function buildCSV(){
+    var ev=activeEv();
+    var rows=[["Evaluacion","Fecha","ID","Area","Parametro","Requisito","Resultado","Observacion","Responsable","Fecha compromiso","Estado plan","Accion correctiva","Evidencias"]];
+    PTS.forEach(function(p){ var rp=ev.resp[p.id]||{}; var s=ev.seg[p.id]||{}; rows.push([ev.nombre,ev.fecha||"",p.id,mod(p.m).n+". "+mod(p.m).name,p.s||"",p.req,ST_LABEL[rp.r||""],rp.obs||"",s.resp||"",s.fecha||"",isPlan(rp.r)?EST_LABEL[s.est||"abierto"]:"",s.acc||"",evList(ev,p.id).map(function(f){return f.n;}).join(" | ")]); });
+    return "﻿"+rows.map(function(r){return r.map(function(c){c=String(c==null?"":c);return '"'+c.replace(/"/g,'""')+'"';}).join(";");}).join("\r\n");
+  }
+  function exportCSV(){ harvest(); var csv=buildCSV(); var ev=activeEv(); var base="cesvi_"+(ev.nombre||"evaluacion").normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^\w]+/g,"_").slice(0,40);
+    (window.claude&&window.claude.use?window.claude.use("downloads"):Promise.resolve(null)).then(function(d){
+      if(!d){ toast("La exportación solo funciona en el artifact publicado."); return; }
+      d.save({filename:base+".csv",data:csv}).then(function(){ toast("CSV listo para descargar."); }).catch(function(err){ var code=err&&err.code;
+        if(code==="extension_not_enabled"||code==="rejected_extension"){ d.save({filename:base+".txt",data:csv}).then(function(){ toast("Exportado como .txt con formato CSV."); }).catch(function(){ toast("No se pudo exportar."); }); }
+        else if(code!=="declined"){ toast("No se pudo exportar en esta vista."); }
+      });
+    });
+  }
+  function renderFoot(){
+    document.getElementById("foot").innerHTML='<b>Cómo funciona.</b> El <b>Cuestionario</b> lista los '+PTS.length+' requisitos accionables que salen de la Visita de Seguimiento 2 de CESVI (áreas operativas y control de calidad), agrupados por área y parámetro: Estructura, Equipos, Herramientas, Materiales, Seguridad, Procesos y Personal. Márcalos como Cumple, Parcial, No cumple o No aplica. En <b>Resultados</b> cada No cumple o Parcial abre una tarjeta de plan de acción con responsable, fecha compromiso, acción correctiva y estado. En cada requisito puedes <b>adjuntar evidencias</b> (fotos JPG o PNG, PDF, Word y Excel; hasta 20 MB por foto o PDF y 15 MB por Word o Excel): las fotos y los documentos Word y Excel se pueden ver aquí mismo, y los PDF se abren en una pestaña nueva. Usa “+ Nueva” o “Duplicar” para hacer autoevaluaciones antes de la próxima visita. <b>Los cambios se guardan al pulsar “Guardar cambios”</b>; mientras tanto quedan protegidos en esta pestaña aunque recargues.<br>La evaluación oficial (27 oct 2026, consultor Nicolas Sandoval Moreno) es de solo lectura: seguimiento 84,9% (nivel Bueno), Carrocería 80,6%, Enderezado 68,3%, Pintura 88,3%, Electromecánica 96,8% y calidad de procesos 81,4% (formativa). En autoevaluaciones el puntaje es el % de requisitos cumplidos, con Parcial a medio punto.';
+  }
+
+  var toastT=null; function toast(msg){ var t=document.getElementById("toast"); if(!t)return; t.textContent=msg; t.classList.add("show"); clearTimeout(toastT); toastT=setTimeout(function(){t.classList.remove("show");},msg.length>80?6000:3200); }
+
+  var restoredWork=false;
+  try{ var w=sessionStorage.getItem("work:"+DOC_ID); if(w){ var wj=JSON.parse(w); if(wj&&wj.evaluaciones&&wj.evaluaciones.length){ state.evaluaciones=wj.evaluaciones; if(wj.papelera) state.papelera=wj.papelera; state.evaluaciones.forEach(ensureEv); if(wj.active&&state.evaluaciones.some(function(e){return e.id===wj.active;})) ui.active=wj.active; restoredWork=true; } } }catch(e){}
+  renderShell(); renderBody();
+  if(restoredWork){ dirty=true; setChip("dirty","Cambios sin guardar"); refreshSaveBtn(); toast("Se restauraron cambios sin guardar. Pulsa “Guardar cambios” para conservarlos."); }
+  else setChip("","Sin cambios");
+  setTimeout(function(){ if(window.claude&&window.claude.use){ getCap("assets").then(function(a){ if(!a) document.body.classList.add("noassets"); }); } },0);
+  window.addEventListener("beforeunload",function(e){ if(dirty){ e.preventDefault(); e.returnValue=""; return ""; } });
+  window.addEventListener("scroll",function(){ persistUI(); },{passive:true});
+  if(pendingScroll){ window.scrollTo(0,pendingScroll); setTimeout(function(){window.scrollTo(0,pendingScroll);},40); }
+}))();</script>
